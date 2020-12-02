@@ -8,7 +8,7 @@
     - Duen Horng (Polo) Chau
     - Diyi Yang
   advisor: true
-  description: "Working at the intersection of HCI and Machine Learning; building interactive interfaces that help explain ML models."
+  description: "Working at the intersection of HCI and Machine Learning; building interactive interfaces that help explain models. My current projects involve understanding/visualizing the impact of widely deployed machine learning models."
   institution-url: https://gatech.edu
   group-url: https://poloclub.github.io
   type: academic
@@ -20,7 +20,7 @@
   year: "Summer 2020"
   mentors:
     - Jonathan May
-  description: "Research on understanding and using monolingual embeddings to improve transfer learning in neural machine translation tasks."
+  description: "Work on understanding and using monolingual embeddings to improve transfer learning in neural machine translation tasks. Analyzed internal representations for Translation and Language models. Researched why these internal representations forget things, along with methods to mitigate forgetting."
   institution-url: https://usc.edu
   group-url: https://isi.usc.edu
   type: academic
