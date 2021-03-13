@@ -16,7 +16,7 @@ I research how to enable <b><span class="cv-ai">machine learning interpretabilit
 
 <div>
 My interests lie at the intersection of human-computer interaction and machine learning. I'm fascinated by the amount of trust we place in computing technologies without democratizing how they work to non-experts.
-Currently, I'm drawn to research that aims to identify/explain complexities to people in intelligent systems that affect people, especially in systems that (attempt to) understand language.
+I'm drawn to research that aims to identify/explain complexities in intelligent systems that affect people, <em>to people</em>.
 </div>
 
 <div class="cv-spacer"></div>
