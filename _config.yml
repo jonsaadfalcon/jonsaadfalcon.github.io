@@ -1,6 +1,6 @@
-title: Omar Shaikh
-tagline: Undergrad at GT
-url: https://oshaikh.com
+title: Jon Saad-Falcon
+tagline: Undergraduate Student at Georgia Tech
+url: https://jonsaadfalcon.com
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Omar Shaikh
-  url: https://oshaikh.com
-  email: oshaikh@gatech.edu
+  name: Jon Saad-Falcon
+  url: https://jonsaadfalcon.com
+  email: jonsaadfalcon@gmail.com
 
 markdown: kramdown
 highlighter: rouge
