@@ -1,19 +1,19 @@
 {
-  "name": "oshaikh13.github.io",
+  "name": "jonsaadfalcon.github.io",
   "version": "1.0.0",
-  "description": "Omar Shaikh's website.",
+  "description": "Jon Saad-Falcon's personal website.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oshaikh13/oshaikh13.github.io.git"
+    "url": "git+https://github.com/jonsaadfalcon/jonsaadfalcon.github.io.git"
   },
-  "author": "Omar Shaikh",
+  "author": "Jon Saad-Falcon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oshaikh13/oshaikh13.github.io/issues"
+    "url": "https://github.com/jonsaadfalcon/jonsaadfalcon.github.io/issues"
   },
-  "homepage": "https://github.com/oshaikh13/oshaikh13.github.io#readme"
+  "homepage": "https://github.com/jonsaadfalcon/jonsaadfalcon.github.io#readme"
 }
