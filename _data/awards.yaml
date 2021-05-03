@@ -1,23 +1,23 @@
-- name: Best Poster, Honorable Mention at IEEE VIS
-  description: For "Mapping Researchers with PeopleMap"
-  year: 2020
+- name: "Stamps President’s Scholarship, Georgia Tech"
+  description: Premier full-ride scholarship given to 40 undergraduate students out of 30,000 applicants to Georgia Tech
+  year: 2018
+  
+- name: "Computer Science Research Mentorship Program, Google"
+  description: Apprenticeship program for matching university students with mentors in Google Research
+  year: "Spring 2021"
 
 - name: "President's Undergraduate Research Award (PURA)"
-  description: Funding ($1500) for both the Spring 2020 and 2021 semesters
-  year: "2021 — 2020"
+  description: $1,500 award to support undergraduate research with Georgia Tech faculty advisor
+  year: "Fall 2020"
 
-- name: "Faculty Honors"
-  description: GPA of 4.00, with a schedule of at least 12 hours of coursework with no W grades
-  year: "2020 — 2018"
+- name: "Pathways to Graduate School for Rising College Seniors, Princeton University"
+  description: Competitive program designed to prepare students for graduate school applications
+  year: "Summer 2020"
 
-- name: "Square Intern Hackathon"
-  description: 1st place at Square's intern hackathon for work on identifying trending items
-  year: "Summer 2019"
+- name: "Oxford Machine Learning Summer School, Oxford University"
+  description: Competitive two-week summer school for researchers and engineers in academia and industry
+  year: "Summer 2020"
 
-- name: "Outstanding Freshman, Georgia Tech, College of Computing"
-  description: Awarded to a single freshman student for outstanding academic and extracurricular performance
-  year: "For 2018 AY"
-
-- name: "Middle East and Africa Finalist, Microsoft Imagine Cup"
-  description: For work on Insight, a Virtual Reality tutoring platform; represented Saudi Arabia.
-  year: "2017"
+- name: "Citadel Securities Trading Challenge, Citadel Securities"
+  description: Placed first out of 26 competing teams in simulated trading challenge at Georgia Tech competition
+  year: "Spring 2020"
