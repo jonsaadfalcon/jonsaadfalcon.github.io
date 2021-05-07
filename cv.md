@@ -89,9 +89,9 @@ I research how to enable <b><span class="cv-ai">machine learning interpretabilit
 <!-- <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
 {% include cv/venue.html venue=venue %}
-{% endfor %}
+{% endfor %} -->
 
-<div class="cv-service-title"><b>Program Commitee</b></div>
+<!-- <div class="cv-service-title"><b>Program Commitee</b></div>
 {% for venue in site.data.pc %}
 {% include cv/venue.html venue=venue %}
 {% endfor %} -->
@@ -102,7 +102,6 @@ I research how to enable <b><span class="cv-ai">machine learning interpretabilit
 {% endfor %}
 
 <div class="cv-service-title"><b>Institutional</b></div>
-{% for institution in site.data.institutional %}
 {% include cv/institutional.html institution=institution %}
 {% endfor %}
 
