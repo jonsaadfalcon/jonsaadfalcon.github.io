@@ -5,7 +5,7 @@ title: Home
 
 <div id ="intro-wrapper" class="l-middle">
 	<div id="intro-title-wrapper" class="intro-left">
-		<h1 id="intro-title">Omar Shaikh</h1>
+		<h1 id="intro-title">Jon Saad-Falcon</h1>
 		<!-- <div id="intro-subtitle">
 			Undergrad in the College of Computing at Georgia Tech.
 		</div> -->
