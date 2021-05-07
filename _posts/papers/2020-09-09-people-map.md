@@ -18,7 +18,7 @@ year: 2020
 url: /papers/people-map
 pdf: https://arxiv.org/abs/2009.00091
 code: https://github.com/poloclub/people-map
-demo: https://poloclub.github.io/people-map/
+demo: https://poloclub.github.io/people-map/ml/
 highlight: Best Poster, Honorable Mention
 type: conference
 figure: /images/papers/20-peoplemap.png
