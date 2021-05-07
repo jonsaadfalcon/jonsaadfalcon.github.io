@@ -102,6 +102,7 @@ I research how to enable <b><span class="cv-ai">machine learning interpretabilit
 {% endfor %}
 
 <div class="cv-service-title"><b>Institutional</b></div>
+{% for institution in site.data.institutional %}
 {% include cv/institutional.html institution=institution %}
 {% endfor %}
 
