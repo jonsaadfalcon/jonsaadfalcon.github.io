@@ -1,24 +1,24 @@
 - id: home
-  description: "oshaikh.com"
+  description: "jonsaadfalcon.com"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://oshaikh.com"
+  url: "https://jonsaadfalcon.com"
   on-homepage: false
   cv-group: 1
 
 - id: email
-  description: "oshaikh@gatech.edu"
+  description: "jonsaadfalcon@gatech.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:oshaikh@gatech.edu"
+  url: "mailto:jonsaadfalcon@gatech.edu"
   on-homepage: true
   cv-group: 1
 
 - id: twitter
-  description: "@oshaikh13"
+  description: "@JonSaadFalcon"
   color: "#1da1f2"
   class: "fab fa-twitter icon"
-  url: https://twitter.com/oshaikh13
+  url: https://twitter.com/JonSaadFalcon
   on-homepage: true
   cv-group: 2
 
@@ -26,7 +26,7 @@
   description: "@oshaikh13"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/oshaikh13"
+  url: "https://github.com/jonsaadfalcon"
   on-homepage: true
   cv-group: 2
 
@@ -34,7 +34,7 @@
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=vdPcthgAAAAJ&hl=en"
+  url: "https://scholar.google.com/citations?user=zCVmjboAAAAJ&hl=en"
   on-homepage: true
   cv-group: 2
 
