@@ -3,11 +3,11 @@
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   description:
-      - "Overall GPA -  3.96/4.00, Concentrations in Intelligence and Theory"
+      "- Overall GPA -  3.96/4.00, Concentrations in Intelligence and Theory"
   description_second:
-      - "Stamps President's Scholar, Honors Program, and Tapia Scholarship"
+      "- Stamps President's Scholar, Honors Program, and Tapia Scholarship"
   description_third:
-      - "Undergraduate Research Thesis - PeopleMap, NLP and Visualization Tool for Mapping Out Researchers"
+      "- Undergraduate Research Thesis - PeopleMap, NLP and Visualization Tool for Mapping Out Researchers"
   institution-url: https://www.gatech.edu/
   
 - degree: "Berlin Summer Program"
