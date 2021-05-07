@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Omar Shaikh</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Jon Saad-Falcon</a></h1>
 
 <div class="cv-spacer"></div>
 
@@ -14,10 +14,10 @@ jsarr:
 I research how to enable <b><span class="cv-ai">machine learning interpretability</span></b> at scale and for everyone, by designing and developing interactive interfaces to help people confidently understand data-driven systems. Besides building tools, I also create <b><span class="cv-vis">data visualizations</span></b> and write interactive articles to simply communicate complex ideas.
 </div> -->
 
-<div>
+<!-- <div>
 My interests lie at the intersection of human-computer interaction and machine learning. I'm fascinated by the amount of trust we place in computing technologies without democratizing how they work to non-experts.
 I'm drawn to research that aims to identify/explain complexities in intelligent systems that affect people, <em>to people</em>.
-</div>
+</div> -->
 
 <div class="cv-spacer"></div>
 
