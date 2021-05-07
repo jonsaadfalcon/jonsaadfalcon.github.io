@@ -7,7 +7,7 @@
   mentors: 
     - Duen Horng (Polo) Chau
   advisor: true
-  description: "Projects focusing machine learning and data visualization.
+  description: "Projects focusing machine learning and data visualization."
   institution-url: https://gatech.edu
   group-url: https://poloclub.github.io
   type: academic
@@ -21,7 +21,7 @@
   mentors: 
     - Diyi Yang
   advisor: true
-  description: "Projects focusing natural language processing and computational social science.
+  description: "Projects focusing natural language processing and computational social science."
   institution-url: https://gatech.edu
   group-url: https://www.cc.gatech.edu/~dyang888/
   type: academic
