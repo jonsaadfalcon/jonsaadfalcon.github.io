@@ -1,2 +1,11 @@
-- venue: ACL 2020
-- venue: EMNLP 2020
+- venue: Conference on Empirical Methods in Natural Language Processing
+  venue-shorthand: EMNLP
+  years:
+    - year: 2020
+      url: https://2020.emnlp.org/
+      
+- venue: Annual Meeting of the Association for Computational Linguistics
+  venue-shorthand: ACL
+  years:
+    - year: 2020
+      url: https://acl2020.org/
