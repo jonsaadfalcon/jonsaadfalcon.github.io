@@ -96,7 +96,7 @@ I'm drawn to research that aims to identify/explain complexities in intelligent 
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Program Commitee</b></div>
+<!-- <div class="cv-service-title"><b>Program Commitee</b></div>
 {% for venue in site.data.pc %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
@@ -111,7 +111,7 @@ I'm drawn to research that aims to identify/explain complexities in intelligent 
 {% include cv/institutional.html institution=institution %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Member</b></div>
+<!-- <div class="cv-service-title"><b>Member</b></div>
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
 {% endfor %}
