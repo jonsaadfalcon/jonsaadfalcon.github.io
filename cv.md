@@ -67,21 +67,6 @@ I research how to enable <b><span class="cv-ai">machine learning interpretabilit
 
 ## Publications
 
-### Selected: Latest & Greatest
-
-{% assign selectedBoolForBibtex = true %}
-
-{% assign selected = site.categories.papers | where: 'selected', true %}
-{% for pub in selected %}
-{% include cv/publication.html pub=pub %}
-{% endfor %}
-
-<!-- ### All Publications -->
-
-{% assign selectedBoolForBibtex = false %}
-
-### Everything
-
 {% assign journal = site.categories.papers %}
 {% for pub in journal %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
