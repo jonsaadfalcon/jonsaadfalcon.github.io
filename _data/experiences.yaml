@@ -44,7 +44,8 @@
   group: "Semantic Scholar"
   year: "Spring 2021"
   mentors:
-    - Dan Weld and Tom Hope
+    - Dan Weld
+    - Tom Hope
   description: "Creating new exploration techniques for COVID-19 Mechanism Knowledge Base. Developing clustering algorithms for accelerating the rate of hypothesis generation and literature-based discovery. "
   institution-url: https://allenai.org/
   group-url: https://pages.semanticscholar.org/about-us
