@@ -3,51 +3,61 @@
   position: Undergraduate Research Assistant
   group: Polo Club of Data Science
   year: "Present —"
-  year-extra: "Aug. 2018"
+  year-extra: "Aug. 2019"
   mentors: 
     - Duen Horng (Polo) Chau
-    - Diyi Yang
   advisor: true
-  description: "Working at the intersection of HCI and Machine Learning; building interactive interfaces that help explain models. My current projects involve understanding/visualizing energy consumption for widely deployed machine learning models."
+  description: "Projects focusing machine learning and data visualization.
   institution-url: https://gatech.edu
   group-url: https://poloclub.github.io
   type: academic
-
-- institution: University of Southern California
-  location: "Marina del Rey, CA (remote)"
-  position: Research Intern
-  group: "Natural Language Group"
-  year: "Summer 2020"
-  mentors:
-    - Jonathan May
-  description: "Work on understanding and using monolingual embeddings to improve transfer learning in neural machine translation tasks. Analyzed internal representations for Translation and Language models. Researched why these internal representations forget things, along with methods to mitigate forgetting."
-  institution-url: https://usc.edu
-  group-url: https://isi.usc.edu
+  
+  - institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  position: Undergraduate Research Assistant
+  group: Speech and Language Technologies Laboratory
+  year: "Present —"
+  year-extra: "Aug. 2019"
+  mentors: 
+    - Diyi Yang
+  advisor: true
+  description: "Projects focusing natural language processing and computational social science.
+  institution-url: https://gatech.edu
+  group-url: https://www.cc.gatech.edu/~dyang888/
   type: academic
 
-- institution: Square
-  location: "Atlanta, GA"
-  position: Applied Research Intern
-  group: "Commerce Machine Learning"
-  year: "Summer 2019"
+- institution: Center for the Study of Language and Information (CSLI), Stanford University
+  location: "Palo Alto, CA (remote)"
+  position: Research Intern
+  group: "Stanford AI Lab, Natural Language Processing Group"
+  year: "Summer 2021"
   mentors:
-    - Marsal Gavalda
-  description: "Built a trending item identification platform (Square Trends), classified items into tax categories. Presented to CEO (Jack Dorsey) + Core after garnering attention on Trends."
-  institution-url: https://square.com
-  group-url: https://square.com
+    - Christopher Potts
+  description: "Accepted for a cohort of 12 students out of 723 applicants. Constructing open-domain question answering models for the scientific research domain."
+  institution-url: https://www-csli.stanford.edu/
+  group-url: https://nlp.stanford.edu/
+  type: academic
+
+- institution: Allen Institute for Artificial Intelligence (AI2)
+  location: "Seattle, Washington (remote)"
+  position: Research Intern
+  group: "Semantic Scholar"
+  year: "Spring 2021"
+  mentors:
+    - Dan Weld and Tom Hope
+  description: "Creating new exploration techniques for COVID-19 Mechanism Knowledge Base. Developing clustering algorithms for accelerating the rate of hypothesis generation and literature-based discovery. "
+  institution-url: https://allenai.org/
+  group-url: https://pages.semanticscholar.org/about-us
   type: industry
 
-- institution: Cornell University
-  location: "Ithaca, NY (remote)"
-  position: Visiting Research Assistant
-  group: Virtual Embodiment Lab
-  year: "May 2018 —"
-  year-extra: "Aug. 2016"
-  mentors: 
-    - Andrea Stevenson Won
+- institution: Goldman Sachs
+  location: "New York City (remote)"
+  position: Research Analyst
+  group: Gloabl Investment Research
+  year: "Summer 2020"
   advisor: true
-  description: "Understanding synchrony in virtual environments; built movement trackers for networked VR environments, visualized interpersonal synchrony."
-  institution-url: https://cornell.edu
-  group-url: https://virtualembodimentlab.com
-  type: academic
+  description: "Initiated an independent project using quantitative techniques and NLP tools to perform valuation of companies. Collaborated with traders and external clients to develop reliable Python tools for extending coverage of sectors."
+  institution-url: https://www.goldmansachs.com/
+  group-url: https://www.goldmansachs.com/careers/divisions/global-investment-research/
+  type: industry
 
