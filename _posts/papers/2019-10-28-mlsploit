@@ -26,6 +26,18 @@ feature-description: "Understanding and Fortifying Machine Learning Based Securi
 feature-order: 3
 selected: true
 
+bibtex: |-
+
+  @inproceedings{saadfalcon2020peoplemap,
+    title={Mapping Researchers with PeopleMap},
+    author={Jon Saad-Falcon and Omar Shaikh and Zijie J. Wang and Austin P. Wright and Sasha Richardson and Duen Horng Chau},
+    booktitle={IEEE Visualization Conference (VIS)},
+    publisher={IEEE},
+    year={2020},
+    url={https://poloclub.github.io/people-map/}
+  }
+---
+
 MLsploit is the first user-friendly, cloud-based system that enables researchers and practitioners to rapidly evaluate and compare state-of-the-art adversarial attacks and defenses for machine learning (ML) models.
 
 As recent advances in adversarial ML have revealed that many ML techniques are highly vulnerable to adversarial attacks, MLsploit meets the urgent need for practical tools that facilitate interactive security testing of ML models. MLsploit is jointly developed by researchers at Georgia Tech and Intel. Designed for extensibility, MLsploit accelerates the study and development of secure ML systems for safety-critical applications. MLsploit allows performing fast-paced experimentation with adversarial ML research that spans a diverse set of modalities, such as bypassing Android and Linux malware, or attacking and defending deep learning models for image classification.
