@@ -26,38 +26,3 @@
   group-url: https://www.cc.gatech.edu/~dyang888/
   type: academic
 
-- institution: Center for the Study of Language and Information (CSLI), Stanford University
-  location: "Palo Alto, CA (remote)"
-  position: Research Intern
-  group: "Stanford AI Lab, Natural Language Processing Group"
-  year: "Summer 2021"
-  mentors:
-    - Christopher Potts
-  description: "Accepted for a cohort of 12 students out of 723 applicants. Constructing open-domain question answering models for the scientific research domain."
-  institution-url: https://www-csli.stanford.edu/
-  group-url: https://nlp.stanford.edu/
-  type: academic
-
-- institution: Allen Institute for Artificial Intelligence (AI2)
-  location: "Seattle, Washington (remote)"
-  position: Research Intern
-  group: "Semantic Scholar"
-  year: "Spring 2021"
-  mentors:
-    - Dan Weld and Tom Hope
-  description: "Creating new exploration techniques for COVID-19 Mechanism Knowledge Base. Developing clustering algorithms for accelerating the rate of hypothesis generation and literature-based discovery. "
-  institution-url: https://allenai.org/
-  group-url: https://pages.semanticscholar.org/about-us
-  type: industry
-
-- institution: Goldman Sachs
-  location: "New York City (remote)"
-  position: Research Analyst
-  group: Gloabl Investment Research
-  year: "Summer 2020"
-  advisor: true
-  description: "Initiated an independent project using quantitative techniques and NLP tools to perform valuation of companies. Collaborated with traders and external clients to develop reliable Python tools for extending coverage of sectors."
-  institution-url: https://www.goldmansachs.com/
-  group-url: https://www.goldmansachs.com/careers/divisions/global-investment-research/
-  type: industry
-
