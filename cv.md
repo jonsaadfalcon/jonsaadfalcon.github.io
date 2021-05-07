@@ -72,21 +72,6 @@ I'm drawn to research that aims to identify/explain complexities in intelligent 
 
 ## Publications
 
-### Selected: Latest & Greatest
-
-{% assign selectedBoolForBibtex = true %}
-
-{% assign selected = site.categories.papers | where: 'selected', true %}
-{% for pub in selected %}
-{% include cv/publication.html pub=pub %}
-{% endfor %}
-
-<!-- ### All Publications -->
-
-{% assign selectedBoolForBibtex = false %}
-
-### Everything
-
 {% assign journal = site.categories.papers %}
 {% for pub in journal %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
