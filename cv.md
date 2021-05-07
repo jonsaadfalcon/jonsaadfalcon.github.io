@@ -107,13 +107,7 @@ I'm drawn to research that aims to identify/explain complexities in intelligent 
 {% endfor %} -->
 
 <div class="cv-service-title"><b>Institutional</b></div>
-{% for institution in site.data.institutional %}
 {% include cv/institutional.html institution=institution %}
-{% endfor %}
-
-<!-- <div class="cv-service-title"><b>Member</b></div>
-{% for member in site.data.memberships %}
-{% include cv/member.html member=member %}
 {% endfor %}
 
 ## Technology Skills
