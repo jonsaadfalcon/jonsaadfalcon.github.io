@@ -101,7 +101,7 @@ I'm drawn to research that aims to identify/explain complexities in intelligent 
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Reviewer</b></div>
+<div class="cv-service-title"><b>Conference Participation</b></div>
 {% for venue in site.data.reviewer %}
 {% include cv/venue.html venue=venue %}
 {% endfor %} -->
