@@ -20,7 +20,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I've had the privilege to collaborate with researchers and scientists at <img class="intro-logo" style="width: 22px; padding-bottom: 5px;" src="/images/stanford.svg"> Stanford AI Lab, <img class="intro-logo" style="width: 25px; padding-bottom: 3px;" src="/images/AI2.svg"> Allen Institute for Artificial Intelligence, and <img class="intro-logo" style="width: 22px" src="/images/goldmansachs.svg"> Goldman Sachs.
+		I've had the privilege to collaborate with researchers and scientists at <img class="intro-logo" style="width: 22px; padding-bottom: 5px;" src="/images/stanford.svg"> Stanford AI Lab, <img class="intro-logo" style="width: 25px; padding-bottom: 3px;" src="/images/AI2.svg"> Allen Institute for Artificial Intelligence (AI2), and <img class="intro-logo" style="width: 22px" src="/images/goldmansachs.svg"> Goldman Sachs.
 	</div>
 </div>
 
