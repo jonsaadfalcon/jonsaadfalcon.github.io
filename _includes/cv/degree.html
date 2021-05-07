@@ -35,6 +35,22 @@
 	</div>
 {% endif %}
 
+{% if degree.description_second %}
+	<div class="cv-description">
+		{% for item in degree.description_second %}
+			{{ item }}
+		{% endfor %}
+	</div>
+{% endif %}
+
+{% if degree.description_third %}
+	<div class="cv-description">
+		{% for item in degree.description_third %}
+			{{ item }}
+		{% endfor %}
+	</div>
+{% endif %}
+
 <div class="pub-misc">
 	{% if degree.thesis-link %}
 		<a href="{{ degree.thesis-link }}">
