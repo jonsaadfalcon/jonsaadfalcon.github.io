@@ -1,16 +1,14 @@
-- name: Languages
+- name: Coding Languages
   items:
     - Python
     - JavaScript
     - C
     - Java
     - C#
-    - Some Arabic and Hindi
+    - Scala
 
 - name: Technologies
   items:
     - PyTorch
     - Node.js 
     - React (Native) 
-    - Redux
-    - Unity
