@@ -1,3 +1,15 @@
+- institution: Center for the Study of Language and Information (CSLI), Stanford University
+  location: "Palo Alto, CA (remote)"
+  position: Research Intern
+  group: "Stanford AI Lab, Natural Language Processing Group"
+  year: "Summer 2021"
+  mentors:
+    - Christopher Potts
+  description: "Accepted for a cohort of 12 students out of 723 applicants. Constructing open-domain question answering models for the scientific research domain."
+  institution-url: https://www-csli.stanford.edu/
+  group-url: https://nlp.stanford.edu/
+  type: academic
+
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   position: Undergraduate Research Assistant
@@ -24,18 +36,6 @@
   description: "Projects focusing natural language processing and computational social science."
   institution-url: https://gatech.edu
   group-url: https://www.cc.gatech.edu/~dyang888/
-  type: academic
-
-- institution: Center for the Study of Language and Information (CSLI), Stanford University
-  location: "Palo Alto, CA (remote)"
-  position: Research Intern
-  group: "Stanford AI Lab, Natural Language Processing Group"
-  year: "Summer 2021"
-  mentors:
-    - Christopher Potts
-  description: "Accepted for a cohort of 12 students out of 723 applicants. Constructing open-domain question answering models for the scientific research domain."
-  institution-url: https://www-csli.stanford.edu/
-  group-url: https://nlp.stanford.edu/
   type: academic
 
 - institution: Allen Institute for Artificial Intelligence (AI2)
