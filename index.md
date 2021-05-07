@@ -12,24 +12,20 @@ title: Home
 	</div>
 	<div class="intro-left">
 	<div class="intro-left">
-		Hey there! I'm an undergrad in the College of Computing at <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/gt.png"> Georgia Tech (go Jackets!) I'm advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>, working at the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a>.
+		I'm an undergraduate student in the College of Computing at Georgia Tech <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/gt.png">. I'm advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> and <a href="https://www.cc.gatech.edu/~dyang888/">Diyi Yang</a>, working at the <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a> and Social and Language Technologies (SALT) lab, respectively.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		My interests lie at the intersection of human-computer interaction and machine learning. I'm fascinated by the amount of trust we place in computing technologies without democratizing how they work to non-experts. 
+		My research interests span across natural language processing, computational social science, and machine learning. I'm excited to work on projects that leverage NLP models surrounding human understanding of textual datasets. 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I'm drawn to research that aims to identify/explain complexities in intelligent systems that affect people, <em>to people</em>.  
-	</div>
-	<div style="height: 1rem"></div>
-	<div>
-		I've spent a bit of time as a research intern at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/square.svg"> Square, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/usc.svg"> University of Southern California, and <img class="intro-logo" style="width: 24px" src="/images/cornell.svg"> Cornell University.
+		I've had the privilege to collaborate with researchers and scientists at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/stanford.svg"> Stanford AI Lab, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/AI2.svg"> Allen Institute for Artificial Intelligence, and <img class="intro-logo" style="width: 24px" src="/images/goldmansachs.svg"> Goldman Sachs.
 	</div>
 </div>
 
 <div class="intro-right">
-	<img id="intro-image" class="intro-right" src="/images/portrait.png">
+	<img id="intro-image" class="intro-right" src="/images/jon.png">
 	<div style="height: 0.5rem"></div>
 	<div id="intro-image-links" class="intro-right">
 		{% for link in site.data.social-links %}
