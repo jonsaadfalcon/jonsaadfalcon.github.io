@@ -6,5 +6,12 @@
       - "Overall GPA -  3.96/4.00, Concentrations in Intelligence and Theory"
       - "Stamps President's Scholar, Honors Program, and Tapia Scholarship"
       - "Undergraduate Research Thesis - PeopleMap, NLP and Visualization Tool for Mapping Out Researchers"
-      - "Inaugural Participant in Berlin Summer Program"
   institution-url: https://www.gatech.edu/
+  
+- degree: "Berlin Summer Program"
+  years: "Summer 2019"
+  institution: Technische Universität Berlin
+  location: "Berlin, Germany"
+  description:
+      - "Exchange program, classes in Machine Learning, Agile Product Development, Statistics/Probability, and Entrepreneurship."
+  institution-url: https://www.tu.berlin/en/
