@@ -1,15 +1,27 @@
+- title: "Weaver: Shrinking the Generation-Verification Gap with Weak Verifiers"
+  month: "Dec."
+  year: 2025
+  link: https://home.mlops.community/public/videos/shrinking-the-generation-verification-gap-with-weak-verifiers
+  publisher: "MLOps Community"
+  
+- title: "Measuring Intelligence Summit at PyTorch Conference"
+  month: "Oct."
+  year: 2025
+  link: https://pytorch.org/blog/measuring-intelligence-summit-at-pytorch-conference/
+  publisher: "PyTorch Foundation"
+  
 - title: "This New Tool Can Track the Environmental Cost of Your Machine Learning Model"
   month: "Apr."
   year: 2021
   link: https://www.cc.gatech.edu/news/646832/new-tool-can-track-environmental-cost-your-machine-learning-model
   publisher: "Georgia Tech, College of Computing"
-
+  
 - title: "Being Polite Can Be Essential to Getting a Loan"
   month: "Nov."
   year: 2020
   link: https://sites.gatech.edu/emnlp/georgia-tech-research/being-polite-can-be-essential-to-getting-a-loan/
   publisher: "Georgia Tech, College of Computing"
-
+  
 - title: "Georgia Tech Researchers Contribute 13 Papers to Premier Visualization Conference" 
   month: "Oct."
   year: 2020
