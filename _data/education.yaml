@@ -1,15 +1,13 @@
 - degree: "Ph.D. in Computer Science"
-  years: "June 2023 - June 2027"
   institution: Stanford University
   location: "Palo Alto, CA"
   description:
       "- Overall GPA -  4.00/4.00, Focus on Natural Language Processing, Information Retrieval, and ML Systems"
   description_second:
-      "- GEM Fellowship and EDGE Fellowship"
+      "- GEM Fellowship, Stanford EDGE Fellowship, JP Morgan AI/ML Fellowship"
   institution-url: https://www.stanford.edu/
 
 - degree: "B.S. - M.S. Program in Computer Science, Minors in Linguistics and Mathematics"
-  years: "Aug. 2018 — May 2022"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   description:
@@ -21,7 +19,6 @@
   institution-url: https://www.gatech.edu/
   
 - degree: "Berlin Summer Program"
-  years: "Summer 2019"
   institution: Technische Universität Berlin
   location: "Germany"
   description:
