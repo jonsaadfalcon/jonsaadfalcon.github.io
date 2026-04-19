@@ -1,0 +1,71 @@
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid $border;
+}
+
+.nav-inner {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-name {
+  font-family: $font-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $text;
+  border: none;
+
+  &:hover {
+    color: $accent;
+    border: none;
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+
+  a {
+    font-family: $font-serif;
+    font-size: 0.88rem;
+    color: $text-secondary;
+    border: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $accent;
+      border: none;
+    }
+
+    &.active {
+      color: $accent;
+      font-weight: 600;
+    }
+
+    &.cv-pdf-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+
+      i {
+        font-size: 0.72rem;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    gap: 16px;
+    a { font-size: 0.82rem; }
+  }
+}

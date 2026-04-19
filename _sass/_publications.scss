@@ -1,0 +1,78 @@
+.pub-list {
+  list-style: none;
+}
+
+.pub-item {
+  padding: 16px 0;
+  border-bottom: 1px solid $border-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: $text;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  font-size: 0.82rem;
+  color: $text-secondary;
+  margin-bottom: 3px;
+  line-height: 1.45;
+
+  .me {
+    font-weight: 700;
+    color: $text;
+  }
+}
+
+.pub-venue {
+  font-size: 0.8rem;
+  color: $text-muted;
+  font-style: italic;
+  margin-bottom: 6px;
+
+  .highlight {
+    font-style: normal;
+    color: $award-highlight;
+    font-weight: 600;
+  }
+}
+
+.pub-links {
+  display: flex;
+  gap: 14px;
+}
+
+.pub-link {
+  font-size: 0.78rem;
+  font-family: $font-sans;
+  color: $accent;
+  border-bottom: 1px solid $accent-border;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+
+  &:hover {
+    border-bottom-color: $accent;
+  }
+}
+
+.year-heading {
+  font-family: $font-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $accent;
+  margin-top: 32px;
+  margin-bottom: 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $accent-light;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}

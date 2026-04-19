@@ -1,0 +1,38 @@
+.award-list {
+  list-style: none;
+}
+
+.award-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid $border-light;
+  align-items: baseline;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @media (max-width: $mobile) {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+.award-name {
+  font-size: 0.88rem;
+  color: $text;
+  line-height: 1.45;
+}
+
+.award-org {
+  font-weight: 600;
+}
+
+.award-year {
+  font-size: 0.8rem;
+  color: $text-muted;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}

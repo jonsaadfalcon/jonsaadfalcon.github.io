@@ -1,0 +1,39 @@
+.talk-list {
+  list-style: none;
+}
+
+.talk-item {
+  padding: 14px 0;
+  border-bottom: 1px solid $border-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.talk-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: $text;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.talk-venues {
+  list-style: disc;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.talk-venue {
+  font-size: 0.82rem;
+  color: $text-secondary;
+  line-height: 1.45;
+
+  .talk-date {
+    color: $text-muted;
+    font-size: 0.78rem;
+  }
+}
