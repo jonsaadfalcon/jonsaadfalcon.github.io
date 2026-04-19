@@ -1,0 +1,20 @@
+- title: "Intelligence Efficiency: Measuring and Optimizing AI Performance per Watt"
+  venues:
+    - name: MBZUAI Speech and NLP Symposium
+      date: "Jan. 2026"
+    - name: Measuring Intelligence Summit at PyTorch Conference
+      date: "Oct. 2025"
+
+- title: "Archon and Inference-Time Techniques"
+  venues:
+    - name: Together AI
+      date: "Jul. 2025"
+    - name: LLMs Meet Data Processing Workshop, UC Berkeley
+      date: "May 2025"
+
+- title: "Automated Evaluation for Retrieval-Augmented Generation"
+  venues:
+    - name: Contextual AI
+      date: "Oct. 2024"
+    - name: Databricks
+      date: "Feb. 2024"

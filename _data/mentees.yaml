@@ -1,0 +1,20 @@
+current:
+  - name: Hangoo Kang
+  - name: Hannah Gao
+  - name: Harsh Singh
+  - name: Matthew Hart
+  - name: Orhun Akengin
+  - name: Tanvir Bhathal
+  - name: Tarun Suresh
+
+past:
+  - name: Adrian Lafuente Gamarra
+    destination: Salesforce
+  - name: Brendan McLaughlin
+    destination: Reflection AI
+  - name: Herumb Shandilya
+    destination: Mixed Bread
+  - name: Robby Manihani
+    destination: Pace
+  - name: Wes Griffin
+    destination: Stanford

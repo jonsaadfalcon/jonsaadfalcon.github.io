@@ -1,43 +1,32 @@
-- name: "Stamps President’s Scholarship, Georgia Tech"
-  description: Premier full-ride scholarship given to 40 undergraduate students out of 30,000 applicants to Georgia Tech
-  year: 2018 - 2022
-  
-- name: "Fulbright Scholarship, Research Award, Germany"
-  description: Awarded to top U.S. students interested in research and cultural exchange abroad
-  year: "Spring 2022"
+- name: Stanford Graduate Fellowship
+  year: 2023
+
+- name: Stanford EDGE Fellowship
+  year: 2023
+
+- name: "JP Morgan AI/ML Fellowship"
+  year: 2023
+
+- name: "GEM PhD Fellowship, National GEM Consortium"
+  year: 2023
+
+- name: "Knight-Hennessy Scholarship, Finalist, Stanford University"
+  year: 2023
 
 - name: "Gates-Cambridge Scholarship, Bill & Melinda Gates Foundation"
-  description: Full-ride graduate scholarship awarded to 75 scholars out of more than 6,000 applicants worldwide
-  year: "Spring 2023"
+  year: 2023
 
-- name: "Knight-Hennessy Scholarship, Finalist, Stanford"
-  description: Full-ride graduate scholarship awarded for academic excellence, leadership, and civic engagement
-  year: "Spring 2022"
-  
-- name: "Donald V. Jackson Fellowship, Georgia Tech College of Computing"
-  description: Awarded to well-rounded, first-year master’s student who embodies values of academic excellence and leadership
-  year: "Summer 2021"
-  
-- name: "Computer Science Research Mentorship Program, Google"
-  description: Apprenticeship program for matching university students with mentors in Google Research
-  year: "Spring 2021"
-  
+- name: "Fulbright Scholarship, Research Award, Germany"
+  year: 2022
+
+- name: "Summer Venture in Management Program, Harvard Business School"
+  year: 2022
+
 - name: "U.N. Millennium Fellowship, United Nations"
-  description: Semester-long leadership development program for supporting student leaders whose organizations address the UN Academic Impact Principles.
-  year: "Fall 2021"
+  year: 2021
 
-- name: "President's Undergraduate Research Award (PURA)"
-  description: $1,500 award to support undergraduate research with Georgia Tech faculty advisor
-  year: "Fall 2020"
+- name: "D.E. Shaw Nexus Fellowship"
+  year: 2020
 
-- name: "Pathways to Graduate School for Rising College Seniors, Princeton University"
-  description: Competitive program designed to prepare students for graduate school applications
-  year: "Summer 2020"
-
-- name: "Oxford Machine Learning Summer School, Oxford University"
-  description: Competitive two-week summer school for researchers and engineers in academia and industry
-  year: "Summer 2020"
-
-- name: "Citadel Securities Trading Challenge, Citadel Securities"
-  description: Placed first out of 26 competing teams in simulated trading challenge at Georgia Tech competition
-  year: "Spring 2020"
+- name: "Stamps President's Scholarship, Georgia Tech"
+  year: "2018 - 2022"
