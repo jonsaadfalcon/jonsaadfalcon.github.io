@@ -1,41 +1,24 @@
 ---
 layout: page
 title: Blog
-permalink: blog/
+subtitle: Thoughts on research, AI, and building things.
 ---
 
-<p>Coming soon?</p>
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'blog'" %}
 
-<div class="posts">
-  {% for post in site.categories.blog limit:5 %}
-  <article class="post">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-    <time datetime="{{ post.date | date: "%B %-d, %Y" }}" class="post-date">{{ post.date | date: "%B %-d, %Y" }}</time>
-
-    {{ post.excerpt }}
-  </article>
+{% if posts.size > 0 %}
+<ul class="pub-list">
+  {% for post in posts %}
+  <li class="pub-item">
+    <div class="pub-title"><a href="{{ post.url }}" style="color: inherit; border-bottom: none;">{{ post.title }}</a></div>
+    <div class="pub-venue" style="font-style: normal;">{{ post.date | date: "%B %d, %Y" }}</div>
+    {% if post.excerpt %}<div class="pub-authors">{{ post.excerpt | strip_html | truncate: 200 }}</div>{% endif %}
+  </li>
   {% endfor %}
+</ul>
+{% else %}
+<div style="padding: 40px 0; text-align: center; color: #888; font-size: 0.92rem;">
+  <i class="fa-solid fa-pencil" style="font-size: 1.5rem; margin-bottom: 12px; display: block; color: rgba(46, 125, 111, 0.3);"></i>
+  Posts coming soon.
 </div>
-
-<hr/>
-
-<h1>Blog Archive</h1>
-<div>
-  {% for post in site.categories.blog %}
-  <article class="post" style="margin-bottom:1.25em;">
-    <h3 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h3>
-    <time datetime="{{ post.date | date: "%B %-d, %Y" }}" class="post-date">
-      {{ post.date | date: "%B %-d, %Y" }}
-    </time>
-  </article>
-  {% endfor %}
-</div>
+{% endif %}
