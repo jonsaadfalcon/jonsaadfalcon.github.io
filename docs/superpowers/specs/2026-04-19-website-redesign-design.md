@@ -52,8 +52,9 @@ Sections in order:
      - Past Mentees (same format, with parenthetical destinations)
    - **Right column:**
      - Name as h1
-     - Bio paragraphs (3 paragraphs: current position + advisors + Google SR, research vision on intelligence efficiency, background)
-     - TODO: expand bio with intelligence efficiency research narrative
+     - Bio paragraph 1: Position, advisors (linked), Google SR, research focus (LMs x ML systems, intelligence efficiency, commoditizing intelligence), IPW project link
+     - Bio paragraph 2: Doctoral fellowships (Stanford Graduate, JP Morgan AI/ML, EDGE, GEM), post-grad scholarships (Fulbright, Gates-Cambridge), background (AI2, Georgia Tech, Stamps)
+     - Supporters line: "My research is generously supported by Stanford HAI, Laude Institute, Lambda Labs, Ollama, and IBM Research."
 
 2. **Announcement Bubble** — commented out, CSS commented out. Mint background, 3px left accent border. Ready to uncomment for job market / recruiting announcements.
 
@@ -63,7 +64,7 @@ Sections in order:
 
 5. **Invited Talks** — Audrey-style. Talk title in quotes, bulleted venue list underneath with location and date. Grouped by talk topic.
 
-6. **Fellowships & Awards** — Two-column grid: name+org on left, year on right. Full list from CV.
+6. **Fellowships & Awards** — Two-column grid: name+org on left, year on right. Reverse chronological: PhD fellowships (Stanford Graduate, EDGE, JP Morgan, GEM PhD, Knight-Hennessy Finalist), post-grad (Gates-Cambridge, Fulbright), undergrad (Harvard SVMP, U.N. Millennium, D.E. Shaw, Stamps). Donald V. Jackson commented out.
 
 7. **Footer** — centered social icons (muted, hover to accent) + copyright.
 
@@ -113,7 +114,7 @@ Sections in order:
 
 ### Data Files Needed
 - `_data/talks.yaml` — invited talks (title, venues with location/date)
-- `_data/mentees.yaml` — current and past mentees (name, url, role, affiliation, destination for past)
+- `_data/mentees.yaml` — current mentees: Hangoo Kang, Hannah Gao, Harsh Singh, Matthew Hart, Orhun Akengin, Tanvir Bhathal, Tarun Suresh. Past mentees: Adrian Lafuente Gamarra (Salesforce), Brendan McLaughlin (Reflection AI), Herumb Shandilya (Mixed Bread), Robby Manihani (Pace), Wes Griffin (Stanford)
 - Existing files to keep: `awards.yaml`, `social-links.yaml`, `education.yaml`, `experiences.yaml`, `people.yaml`
 
 ### Files to Create/Modify
@@ -131,9 +132,13 @@ The approved mockup is at `.superpowers/brainstorm/28052-1776614274/content/all-
 - **Tertiary:** Audrey Cheng (audreyccheng.com) — fluid typography, news timeline, awards section, talks format
 - **Tertiary:** Sewon Min (sewonmin.com) — collapsible info boxes, clean navigation
 
+## Style Notes
+- No em-dashes anywhere; use commas, periods, semicolons, colons, or parentheses instead
+- "commoditizing intelligence" is bolded in the bio
+- "language models and ML systems" is plain text (not bold, not italic)
+- Supporters line is slightly smaller (0.85rem) and secondary-colored
+
 ## Out of Scope (separate tasks)
 - CV PDF redesign (Shreya format + Audrey sections)
 - Blog post content creation
-- Bio text expansion (intelligence efficiency narrative)
-- Mentee data population
 - Actual talk data verification
