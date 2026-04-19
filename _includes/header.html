@@ -1,13 +1,11 @@
-<header id="masthead">
-	<h1>
-  		<a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-  		<!-- <div class="mastheadspacer"/></div> -->
-   		<!-- <span class="masthead-slash">/</span> -->
-   		<!-- <small>{{ site.tagline }}</small> -->
-	</h1>
-	<nav>
-		<a href="{{ site.baseurl }}/cv">CV</a>
-		<a href="{{ site.baseurl }}/cv#publications">Publications</a>
-		<!-- <a href="{{ site.baseurl }}/everything-else">Everything Else</a> -->
-	</nav>
-</header>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <ul class="nav-links">
+      <li><a href="{{ site.baseurl }}/" {% if page.title == "Home" %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ site.baseurl }}/publications" {% if page.title == "Publications" %}class="active"{% endif %}>Publications</a></li>
+      <li><a href="{{ site.baseurl }}/cv.pdf" class="cv-pdf-link" target="_blank">CV <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+      <li><a href="{{ site.baseurl }}/blog" {% if page.title == "Blog" %}class="active"{% endif %}>Blog</a></li>
+    </ul>
+  </div>
+</nav>

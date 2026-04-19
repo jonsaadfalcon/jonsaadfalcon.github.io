@@ -1,16 +1,13 @@
-<footer>
-	<div id="footer-left">
-		<a href="mailto:jonsaadfalcon@stanford.edu"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
-		<a href="http://www.twitter.com/JonSaadFalcon"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
-		<a href="http://www.linkedin.com/in/jonsaadfalcon"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
-		<a href="https://github.com/jonsaadfalcon"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
-		<a href="https://scholar.google.com/citations?user=zCVmjboAAAAJ&hl=en"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
-		<br>
-		<br>
-		&copy; <time datetime="{{ site.time | date: "%B %-d, %Y" }}">{{ site.time | date: '%Y' }}</time> Jon Saad-Falcon
-		<br>
-		Design from <a href="https://fredhohman.com">Fred Hohman</a>
-	</div>
-	<div id="footer-right">
-	</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-icons">
+      <a class="footer-icon" href="https://scholar.google.com/citations?user=zCVmjboAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a class="footer-icon" href="https://www.linkedin.com/in/jonsaadfalcon" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="footer-icon" href="https://github.com/jonsaadfalcon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a class="footer-icon" href="https://twitter.com/JonSaadFalcon" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+      <a class="footer-icon" href="mailto:jonsaadfalcon@stanford.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a class="footer-icon" href="{{ site.baseurl }}/cv.pdf" title="CV"><i class="fa-solid fa-file-lines"></i></a>
+    </div>
+    <div class="footer-text">&copy; {{ site.time | date: '%Y' }} Jon Saad-Falcon</div>
+  </div>
 </footer>
