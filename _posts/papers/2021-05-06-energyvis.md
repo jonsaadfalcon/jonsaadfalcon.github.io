@@ -16,7 +16,8 @@ venue: "CHI '21 Extended Abstracts"
 venue-shorthand: CHI LBW
 year: 2021
 url: /papers/energy-vis
-pdf: https://arxiv.org/abs/2010.04625
+pdf: https://arxiv.org/abs/2103.16435
+code: https://github.com/poloclub/EnergyVis
 video: https://youtu.be/QuVsnS9p1Qc
 type: conference
 image: /images/papers/21-energyvis-map.png
