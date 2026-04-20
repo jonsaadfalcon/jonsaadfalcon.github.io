@@ -1,5 +1,6 @@
 title: Jon Saad-Falcon
-tagline: Undergraduate Student at Georgia Tech
+tagline: Computer Science Ph.D. & MBA Candidate at Stanford University
+description: Jon Saad-Falcon is a joint Computer Science Ph.D. and MBA student at Stanford University, advised by Azalia Mirhoseini and Christopher Ré.
 url: https://jonsaadfalcon.com
 baseurl: ""
 # gems: [jekyll-paginate]
@@ -16,7 +17,7 @@ sass:
 author:
   name: Jon Saad-Falcon
   url: https://jonsaadfalcon.com
-  email: jonsaadfalcon@gmail.com
+  email: jonsaadfalcon@stanford.edu
 
 markdown: kramdown
 highlighter: rouge
