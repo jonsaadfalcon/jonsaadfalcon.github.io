@@ -1,0 +1,58 @@
+- title: "OpenJarvis: Personal AI, On Personal Devices"
+  url: https://scalingintelligence.stanford.edu/blogs/openjarvis/
+  date: "2026"
+  lab: Scaling Intelligence Lab
+  authors:
+    - Jon Saad-Falcon
+    - Avanika Narayan
+    - John Hennessy
+    - Christopher Ré
+    - Azalia Mirhoseini
+
+- title: "Maximizing American Gross Domestic Intelligence with Hybrid Inference"
+  url: https://hazyresearch.stanford.edu/blog/2025-11-28-gdi
+  date: "Nov 28, 2025"
+  lab: Hazy Research
+  authors:
+    - Jared Dunnmon
+    - Avanika Narayan
+    - Jon Saad-Falcon
+    - Christopher Ré
+
+- title: "Intelligence Per Watt: A Study of Local Intelligence Efficiency"
+  url: https://hazyresearch.stanford.edu/blog/2025-11-11-ipw
+  date: "Nov 11, 2025"
+  lab: Scaling Intelligence Lab & Hazy Research
+  authors:
+    - Jon Saad-Falcon
+    - Avanika Narayan
+    - John Hennessy
+    - Azalia Mirhoseini
+    - Christopher Ré
+
+- title: "Weaver: Closing the Generation-Verification Gap with Weak Verifiers"
+  url: https://hazyresearch.stanford.edu/blog/2025-06-18-weaver
+  date: "Jun 18, 2025"
+  lab: Scaling Intelligence Lab & Hazy Research
+  authors:
+    - Jon Saad-Falcon
+    - E. Kelly Buchanan
+    - Mayee F. Chen
+
+- title: "Announcing LoCoV1 and the Latest M2-BERT Models"
+  url: https://hazyresearch.stanford.edu/blog/2024-05-20-m2-bert-retrieval
+  date: "May 20, 2024"
+  lab: Hazy Research
+  authors:
+    - Jon Saad-Falcon
+    - Dan Fu
+    - Simran Arora
+
+- title: "Long-Context Retrieval Models with Monarch Mixer"
+  url: https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval
+  date: "Jan 11, 2024"
+  lab: Hazy Research
+  authors:
+    - Jon Saad-Falcon
+    - Dan Fu
+    - Simran Arora

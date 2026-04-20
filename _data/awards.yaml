@@ -1,32 +1,39 @@
+- name: "JP Morgan AI/ML Fellowship"
+  year: 2025
+
 - name: Stanford Graduate Fellowship
   year: 2023
 
 - name: Stanford EDGE Fellowship
   year: 2023
 
-- name: "JP Morgan AI/ML Fellowship"
+- name: GEM PhD Fellowship
+  org: National GEM Consortium
   year: 2023
 
-- name: "GEM PhD Fellowship, National GEM Consortium"
+- name: Knight-Hennessy Scholarship, Finalist
+  org: Stanford University
   year: 2023
 
-- name: "Knight-Hennessy Scholarship, Finalist, Stanford University"
+- name: Gates-Cambridge Scholarship
+  org: Bill & Melinda Gates Foundation
   year: 2023
 
-- name: "Gates-Cambridge Scholarship, Bill & Melinda Gates Foundation"
-  year: 2023
-
-- name: "Fulbright Scholarship, Research Award, Germany"
+- name: Fulbright Scholarship
+  org: Research Award, Germany
   year: 2022
 
-- name: "Summer Venture in Management Program, Harvard Business School"
+- name: Summer Venture in Management Program
+  org: Harvard Business School
   year: 2022
 
-- name: "U.N. Millennium Fellowship, United Nations"
+- name: U.N. Millennium Fellowship
+  org: United Nations
   year: 2021
 
-- name: "D.E. Shaw Nexus Fellowship"
+- name: D.E. Shaw Nexus Fellowship
   year: 2020
 
-- name: "Stamps President's Scholarship, Georgia Tech"
-  year: "2018 - 2022"
+- name: Stamps President's Scholarship
+  org: Georgia Tech
+  year: 2018

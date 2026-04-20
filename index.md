@@ -28,10 +28,14 @@ title: Home
   </div>
 
   <div class="hero-text">
-    <h1>Jon Saad-Falcon</h1>
+    <!-- <h1>Jon Saad-Falcon</h1> -->
 
     <div class="hero-bio">
-      I am a joint Computer Science Ph.D. and MBA student at Stanford University, advised by <a href="https://www.azaliamirhoseini.com/">Azalia Mirhoseini</a> (<a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a>) and <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a> (<a href="https://hazyresearch.stanford.edu/">Hazy Research</a>). I am also a Google Student Researcher on the TPU and Gemini teams. My research lies at the intersection of language models and ML systems, with a focus on <strong>intelligence efficiency</strong> for LM training and inference. I work on <strong>commoditizing intelligence</strong>: making AI capabilities dramatically cheaper and more accessible through efficient use of hardware, power, and open-source models, so that language models can be deployed more broadly across society. This agenda spans LMs, ML systems, electrical engineering, and economics, and is anchored by the <a href="https://www.intelligence-per-watt.ai/">Intelligence per Watt</a> project.
+      <strong>About Me:</strong> I am a joint Computer Science Ph.D. and MBA student at Stanford University, advised by <a href="https://www.azaliamirhoseini.com/">Azalia Mirhoseini</a> (<a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a>) and <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a> (<a href="https://hazyresearch.stanford.edu/">Hazy Research</a>). I am also a Google Student Researcher on the TPU and Gemini teams.
+    </div>
+
+    <div class="hero-bio">
+      My research lies at the intersection of language models and ML systems. Most recently, I've worked on improving the <strong>intelligence efficiency</strong> of LM training and inference, with the goal of <strong>commoditizing intelligence</strong> by focusing on more efficient use of open-source LMs and hardware accelerators. By reducing the energy, compute, and capital required for deploying LMs at scale, we hope to make LMs more broadly accessible around the world. Our agenda spans foundation models, ML systems, electrical engineering, and economics, and is anchored by the <a href="https://www.intelligence-per-watt.ai/">Intelligence per Watt</a> project.
     </div>
 
     <div class="hero-bio">
@@ -59,9 +63,8 @@ title: Home
 <div class="section">
   <h2 class="section-title">Selected Publications</h2>
   <ul class="pub-list">
-    {% assign sortedPubs = site.categories.papers | sort: 'feature-order' %}
+    {% assign sortedPubs = site.categories.papers | where: 'featured', true | sort: 'date' | reverse %}
     {% for pub in sortedPubs %}
-      {% if pub.featured == true %}
       <li class="pub-item">
         <div class="pub-title">{{ pub.title }}</div>
         <div class="pub-authors">
@@ -71,11 +74,11 @@ title: Home
         <div class="pub-links">
           {% if pub.pdf %}<a class="pub-link" href="{{ pub.pdf }}">paper</a>{% endif %}
           {% if pub.code %}<a class="pub-link" href="{{ pub.code }}">code</a>{% endif %}
+          {% if pub.blog %}<a class="pub-link" href="{{ pub.blog }}">blog</a>{% endif %}
           {% if pub.demo %}<a class="pub-link" href="{{ pub.demo }}">demo</a>{% endif %}
           {% if pub.video %}<a class="pub-link" href="{{ pub.video }}">video</a>{% endif %}
         </div>
       </li>
-      {% endif %}
     {% endfor %}
   </ul>
   <div style="margin-top: 14px;"><a href="/publications" style="font-size: 0.88rem;">View all publications &rarr;</a></div>
@@ -102,7 +105,7 @@ title: Home
   <ul class="award-list">
     {% for award in site.data.awards %}
     <li class="award-item">
-      <span class="award-name"><span class="award-org">{{ award.name }}</span></span>
+      <span class="award-name"><span class="award-org">{{ award.name }}</span>{% if award.org %} <em style="font-weight: normal; color: #555;">&mdash; {{ award.org }}</em>{% endif %}</span>
       <span class="award-year">{{ award.year }}</span>
     </li>
     {% endfor %}

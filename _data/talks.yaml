@@ -1,20 +1,24 @@
-- title: "Intelligence Efficiency: Measuring and Optimizing AI Performance per Watt"
+- title: "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI"
   venues:
+    - name: Two Sigma
+      date: "Feb. 2026"
+    - name: "EE292P: Atoms, Bits, and National Interest (ABNI), Stanford University"
+      date: "Feb. 2026"
     - name: MBZUAI Speech and NLP Symposium
       date: "Jan. 2026"
+
+- title: "Weaver: Shrinking the Generation-Verification Gap with Weak Verifiers"
+  venues:
     - name: Measuring Intelligence Summit at PyTorch Conference
       date: "Oct. 2025"
-
-- title: "Archon and Inference-Time Techniques"
-  venues:
     - name: Together AI
       date: "Jul. 2025"
+
+- title: "Archon: An Architecture Search Framework for Inference-Time Techniques"
+  venues:
     - name: LLMs Meet Data Processing Workshop, UC Berkeley
       date: "May 2025"
-
-- title: "Automated Evaluation for Retrieval-Augmented Generation"
-  venues:
+    - name: Databricks
+      date: "Feb. 2025"
     - name: Contextual AI
       date: "Oct. 2024"
-    - name: Databricks
-      date: "Feb. 2024"

@@ -2,112 +2,46 @@
 layout: default
 ---
 
-<div id="paper-title-wrapper" class="l-screen">
-    <h1>{{ page.title }}</h1>
-    <div id="author-wrapper">
-        {% for person in page.authors %}
-            <div class="author">
-                {% include person-image.html person=person %}{% for p in page.equal-contribution %}{% if person == p %}{% endif %}{% endfor %}
-                {% include person.html person=person %}{% for p in page.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %}
-            </div>
-        {% endfor %}
-    </div>
-    <div id="venue"><i>{{ page.venue }}{% if page.venue-shorthand %} ({{ page.venue-shorthand }}){% endif %}, {{ page.year }}</i></div>
-
-    {% if page.award %}
-        <div id="paper-award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ page.award }}</div>
-	{% endif %}
-	
-	{% if page.highlight %}
-		<div id="paper-award"><i class="fas fa-star" aria-hidden="true"></i> {{ page.highlight }}</div>
-	{% endif %}
-    
-    {% if page.equal-contribution %}
-        <div id="paper-equal-contribution"> *Authors contributed equally</div>
-    {% endif %}
-
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+  <div class="pub-authors" style="margin-top: 6px;">
+    {% for author in page.authors %}{% if author == "Jon Saad-Falcon" %}<span class="me">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+  </div>
+  <div class="pub-venue" style="margin-top: 4px;">{{ page.venue }} {{ page.year }}{% if page.highlight %} <span class="highlight">{{ page.highlight }}</span>{% endif %}</div>
 </div>
 
 {% if page.figure %}
-<figure class="l-middle">
-    <img class="single" src="{{ page.figure }}">
-    <figcaption class="single">{{ page.caption }}</figcaption>
+<figure style="margin-bottom: 32px;">
+  <img src="{{ page.figure }}" style="width: 100%; border-radius: 8px;">
+  {% if page.caption %}<figcaption style="font-size: 0.82rem; color: #888; margin-top: 8px; text-align: center;">{{ page.caption }}</figcaption>{% endif %}
 </figure>
 {% endif %}
 
-<h2>Abstract</h2>
-<div>{{ page.content }}</div>
-
-<h2>Materials</h2>
-<div id="paper-materials">
-{% if page.url or page.pdf or page.coming-soon %}
-
-	{% if page.coming-soon == true %}
-	  <a><i class="fa<div>s fa-arrow-right" aria-hidden="true"></i> Coming soon!</div></a>
-	{% endif %}
-
-	{% if page.url %}
-	  <a href="{{ page.url }}"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
-	{% endif %}
-
-	{% if page.demo %}
-	  <a href="{{ page.demo }}"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
-	{% endif %}
-
-	{% if page.pdf %}
-	  <a href="{{ page.pdf }}"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
-	{% endif %}
-
-	{% if page.blog %}
-	  <a href="{{ page.blog }}"><div><i class="fas fa-newspaper" aria-hidden="true"></i> Blog</div></a>
-	{% endif %}
-
-    {% if page.video %}
-      <a href="{{ page.video }}"><div><i class="fas fa-film" aria-hidden="true"></i> Video</div></a>
-	{% endif %}
-
-	{% if page.preview %}
-	  <a href="{{ page.preview }}"><div><i class="fas fa-eye" aria-hidden="true"></i> Preview</div></a>
-	{% endif %}
-
-	{% if page.talk %}
-	  <a href="{{ page.talk }}"><div><i class="fas fa-video" aria-hidden="true"></i> Talk</div></a>
-	{% endif %}
-
-	{% if page.recording %}
-      <a href="{{ page.recording }}"><div><i class="fas fa-video" aria-hidden="true"></i> Recording</div></a>
-	{% endif %}
-
-	{% if page.slides %}
-	  <a href="{{ page.slides }}"><div><i class="fas fa-window-maximize" aria-hidden="true"></i> Slides</div></a>
-	{% endif %}
-
-	{% if page.poster %}
-	  <a href="{{ page.poster }}"><div><i class="fas fa-image" aria-hidden="true"></i> Poster</div></a>
-	{% endif %}
-
-	{% if page.code %}
-	  <a href="{{ page.code }}"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
-	{% endif %}
-
-	{% if page.data %}
-	  <a href="{{ page.data }}"><div><i class="fas fa-database" aria-hidden="true"></i> Data</div></a>
-	{% endif %}
-
-	{% if feature.slides %}
-	  <a href="{{ feature.slides }}"><div><i class="fas fa-window-maximize" aria-hidden="true"></i> Slides</div></a>
-	{% endif %}
-	
-{% endif %}
+<div class="section">
+  <h2 class="section-title">Materials</h2>
+  <div class="pub-links" style="flex-wrap: wrap; gap: 14px;">
+    {% if page.pdf %}<a class="pub-link" href="{{ page.pdf }}">paper</a>{% endif %}
+    {% if page.code %}<a class="pub-link" href="{{ page.code }}">code</a>{% endif %}
+    {% if page.blog %}<a class="pub-link" href="{{ page.blog }}">blog</a>{% endif %}
+    {% if page.demo %}<a class="pub-link" href="{{ page.demo }}">demo</a>{% endif %}
+    {% if page.video %}<a class="pub-link" href="{{ page.video }}">video</a>{% endif %}
+    {% if page.slides %}<a class="pub-link" href="{{ page.slides }}">slides</a>{% endif %}
+    {% if page.poster %}<a class="pub-link" href="{{ page.poster }}">poster</a>{% endif %}
+    {% if page.talk %}<a class="pub-link" href="{{ page.talk }}">talk</a>{% endif %}
+    {% if page.data %}<a class="pub-link" href="{{ page.data }}">data</a>{% endif %}
+  </div>
 </div>
 
-<h2>BibTeX</h2>
+{% if content != "" %}
+<div class="section">
+  <h2 class="section-title">Abstract</h2>
+  <div style="font-size: 0.92rem; line-height: 1.75;">{{ content }}</div>
+</div>
+{% endif %}
+
 {% if page.bibtex %}
-<div class="highlighter-rouge bibtex bibtex-wrapper">
-	<div class="highlight">
-		<pre>
-			{{ page.bibtex }}
-		</pre>
-	</div>
+<div class="section">
+  <h2 class="section-title">BibTeX</h2>
+  <pre style="background: #f5f5f5; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 0.78rem; font-family: ui-monospace, monospace;">{{ page.bibtex }}</pre>
 </div>
 {% endif %}
