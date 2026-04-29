@@ -35,7 +35,7 @@ title: Home
     </div>
 
     <div class="hero-bio">
-      My research lies at the intersection of language models and ML systems. Most recently, I've worked on improving the <strong>intelligence efficiency</strong> of LM training and inference, with the goal of <strong>commoditizing intelligence</strong> by focusing on more efficient use of open-source LMs and hardware accelerators. By reducing the energy, compute, and capital required for deploying LMs at scale, we hope to make LMs more broadly accessible around the world. Our agenda spans foundation models, ML systems, electrical engineering, and economics, and is anchored by the <a href="https://www.intelligence-per-watt.ai/">Intelligence per Watt</a> project.
+      My research lies at the intersection of language models and ML systems. Most recently, I've studied the <strong>intelligence efficiency</strong> of LM systems, with the goal of <strong>commoditizing intelligence</strong> through increasingly efficient open-source LMs and hardware accelerators. By reducing the energy, compute, and capital required for deploying LMs at scale, we hope to make LM systems more broadly utilized around the world. Our agenda spans foundation models, ML systems, electrical engineering, and economics, and is anchored by the <a href="https://www.intelligence-per-watt.ai/">Intelligence per Watt</a> project.
     </div>
 
     <div class="hero-bio">
@@ -82,6 +82,25 @@ title: Home
     {% endfor %}
   </ul>
   <div style="margin-top: 14px;"><a href="/publications" style="font-size: 0.88rem;">View all publications &rarr;</a></div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">In the News</h2>
+  <p style="font-size: 0.85rem; color: #555; margin-bottom: 14px;">Selected industry and analyst coverage of <em>Intelligence per Watt</em>.</p>
+  <ul class="pub-list">
+    {% for item in site.data.ipw-coverage %}
+      {% if item.featured %}
+      <li class="pub-item">
+        <div class="pub-title">{{ item.title }}</div>
+        <div class="pub-venue" style="font-style: normal;">{{ item.publisher }} &middot; {{ item.date }}</div>
+        <div class="pub-links">
+          <a class="pub-link" href="{{ item.url }}" target="_blank">read</a>
+        </div>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <div style="margin-top: 14px;"><a href="/papers/ipw" style="font-size: 0.88rem;">View full coverage list &rarr;</a></div>
 </div>
 
 <div class="section">

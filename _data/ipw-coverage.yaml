@@ -1,0 +1,81 @@
+# Coverage and adoption of "Intelligence per Watt" (IPW) as a metric.
+# All entries are post-Nov 11, 2025 (the Stanford paper publication date).
+# Excludes the Stanford paper itself, the Hazy Research blog post,
+# intelligence-per-watt.ai, and intelligenceperwatt.com.
+
+- publisher: NVIDIA Developer Blog
+  title: "Scaling Token Factory Revenue and AI Efficiency by Maximizing Performance per Watt"
+  date: "Mar. 2026"
+  url: https://developer.nvidia.com/blog/scaling-token-factory-revenue-and-ai-efficiency-by-maximizing-performance-per-watt
+  category: industry
+  featured: true
+
+- publisher: Gartner
+  title: "Microsoft's Maia 200 Rewrites the Rules of Agent Intelligence per Watt"
+  date: "2026"
+  url: https://www.gartner.com/en/documents/7367330
+  category: industry
+  featured: true
+
+- publisher: IBM Research
+  title: "Small Models, Hazy Research"
+  date: "2025"
+  url: https://research.ibm.com/blog/small-models-hazy-research-granite
+  category: industry
+  featured: true
+
+- publisher: SambaNova Systems
+  title: "Intelligence per Joule: The New Metric for True AI Value and Efficiency"
+  date: "Nov. 2025"
+  url: https://sambanova.ai/blog/best-intelligence-per-joule
+  category: industry
+  featured: true
+
+- publisher: SambaNova × Stanford
+  title: "Measure What Matters: Intelligence per Watt & Joule (Webinar)"
+  date: "2025"
+  url: https://sambanova.ai/videos/measure-intelligence-per-watt-joule
+  category: industry
+  featured: false
+
+- publisher: Snorkel AI
+  title: "Intelligence Per Watt: A New Metric for AI's Future"
+  date: "Nov. 2025"
+  url: https://snorkel.ai/blog/intelligence-per-watt-a-new-metric-for-ais-future
+  category: industry
+  featured: true
+
+- publisher: EnterpriseDB
+  title: "EDB pitches intelligence per watt for AI data layer (IT Brief Asia)"
+  date: "Apr. 2026"
+  url: https://itbrief.asia/story/edb-pitches-intelligence-per-watt-for-ai-data-layer
+  category: industry
+  featured: true
+
+- publisher: Embedl
+  title: "Intelligence per Watt: Edge versus Cloud"
+  date: "2026"
+  url: https://www.embedl.com/knowledge/intelligence-per-watt-edge-versus-cloud
+  category: industry
+  featured: false
+
+- publisher: Reiner Pope (MATX)
+  title: "Intelligence per Watt as a north star for AI hardware"
+  date: "2026"
+  url: https://x.com/reinerpope/status/2046260624200778038
+  category: social
+  featured: true
+
+- publisher: Alex Cheema (EXO Labs)
+  title: "Intelligence per Joule increased 18x in 16 months"
+  date: "2026"
+  url: https://x.com/alexocheema/status/2041924875816751197
+  category: social
+  featured: false
+
+- publisher: Christopher Suffi (Medium)
+  title: "Measure What Matters: Intelligence per Watt & Joule"
+  date: "2025"
+  url: https://medium.com/@christopher.suffi/measure-what-matters-intelligence-per-watt-joule
+  category: social
+  featured: false
