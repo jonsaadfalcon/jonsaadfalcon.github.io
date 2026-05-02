@@ -37,20 +37,18 @@ def make_icon(size: int, corner_ratio: float = 0.18) -> Image.Image:
         fill=ACCENT,
     )
 
-    # 'J' glyph centered
-    # Georgia Bold "J" needs a slight horizontal nudge because of its descender
-    font_size = int(size * scale * 0.72)
+    # 'JSF' monogram centered
+    font_size = int(size * scale * 0.46)
     font = ImageFont.truetype(FONT_PATH, font_size)
 
-    text = "J"
+    text = "JSF"
     bbox = draw.textbbox((0, 0), text, font=font)
     text_w = bbox[2] - bbox[0]
     text_h = bbox[3] - bbox[1]
-    # offset for the bbox origin
     x = (size * scale - text_w) // 2 - bbox[0]
     y = (size * scale - text_h) // 2 - bbox[1]
-    # Slight upward nudge to balance Georgia's J descender
-    y -= int(size * scale * 0.04)
+    # Slight upward nudge to optically center given Georgia's J descender
+    y -= int(size * scale * 0.02)
     draw.text((x, y), text, font=font, fill=WHITE)
 
     return canvas.resize((size, size), Image.LANCZOS)

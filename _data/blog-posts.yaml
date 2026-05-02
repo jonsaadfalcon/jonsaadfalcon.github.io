@@ -9,6 +9,18 @@
     - Christopher Ré
     - Azalia Mirhoseini
 
+- title: "Supercharging LLMs: Scalable RL with TorchForge and Weaver"
+  url: https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/
+  date: "Jan 9, 2026"
+  lab: PyTorch (Stanford × Meta × CoreWeave)
+  authors:
+    - Jon Saad-Falcon
+    - Hangoo Kang
+    - Simon Guo
+    - Aakanksha Chowdhery
+    - Azalia Mirhoseini
+    - Joe Spisak
+
 - title: "Maximizing American Gross Domestic Intelligence with Hybrid Inference"
   url: https://hazyresearch.stanford.edu/blog/2025-11-28-gdi
   date: "Nov 28, 2025"
