@@ -39,6 +39,10 @@ title: Home
     </div>
 
     <div class="hero-bio">
+      I've been fortunate to collaborate with <a href="https://profiles.stanford.edu/john-hennessy">John Hennessy</a> (Stanford), <a href="https://www.achowdhery.com/">Aakanksha Chowdhery</a> (Stanford / Reflection AI), and <a href="https://www.linkedin.com/in/jspisak/">Joe Spisak</a> (Meta), among others.
+    </div>
+
+    <div class="hero-bio">
       My doctoral studies are supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sgf">Stanford Graduate Fellowship</a>, <a href="https://www.jpmorganchase.com/about/technology/research/ai">JP Morgan AI/ML Fellowship</a>, <a href="https://vpge.stanford.edu/fellowships-funding/EDGE">Stanford EDGE Fellowship</a>, and <a href="https://www.gemfellowship.org/gem-fellowship-program/">GEM Fellowship</a>. I am a recipient of the <a href="https://us.fulbrightonline.org/">Fulbright Scholarship</a> (Research Award, Germany) and <a href="https://www.gatescambridge.org/">Gates-Cambridge Scholarship</a> for post-graduate studies. Previously, I was a Predoctoral Young Investigator at the <a href="https://allenai.org/">Allen Institute for AI</a> and completed the joint B.S./M.S. in Computer Science at <a href="https://www.scs.gatech.edu/">Georgia Tech</a> as a <a href="https://stampsps.gatech.edu/">Stamps President's Scholar</a>.
     </div>
 
@@ -86,7 +90,6 @@ title: Home
 
 <div class="section">
   <h2 class="section-title">In the News</h2>
-  <p style="font-size: 0.85rem; color: #555; margin-bottom: 14px;">Selected industry and analyst coverage of <em>Intelligence per Watt</em>.</p>
   <ul class="pub-list">
     {% for item in site.data.ipw-coverage %}
       {% if item.featured %}

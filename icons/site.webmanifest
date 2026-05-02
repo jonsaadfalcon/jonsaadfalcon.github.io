@@ -1,10 +1,19 @@
 {
-    "name": "jonsaadfalcon",
-    "short_name": "jonsaadfalcon",
-    "icons": [
-
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+  "name": "Jon Saad-Falcon",
+  "short_name": "JSF",
+  "icons": [
+    {
+      "src": "/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2E7D6F",
+  "background_color": "#ffffff",
+  "display": "standalone"
 }
