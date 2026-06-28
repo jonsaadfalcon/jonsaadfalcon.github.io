@@ -55,12 +55,14 @@ def make_icon(size: int, corner_ratio: float = 0.18) -> Image.Image:
 
 
 def main() -> None:
+    import sys
+    suffix = sys.argv[1] if len(sys.argv) > 1 else ""
     ICONS_DIR.mkdir(exist_ok=True)
     sizes = {
-        "favicon-16x16.png": 16,
-        "favicon-32x32.png": 32,
-        "favicon-48x48.png": 48,
-        "apple-touch-icon.png": 180,
+        f"favicon-16x16{suffix}.png": 16,
+        f"favicon-32x32{suffix}.png": 32,
+        f"favicon-48x48{suffix}.png": 48,
+        f"apple-touch-icon{suffix}.png": 180,
     }
     images = {}
     for fname, size in sizes.items():
@@ -70,14 +72,14 @@ def main() -> None:
         images[size] = img
         print(f"Wrote {out_path} ({size}x{size})")
 
-    # Multi-size .ico: include 16, 32, 48
-    ico_path = ICONS_DIR / "favicon.ico"
-    images[16].save(
-        ico_path,
-        format="ICO",
-        sizes=[(16, 16), (32, 32), (48, 48)],
-    )
-    print(f"Wrote {ico_path} (multi-size)")
+    if not suffix:
+        ico_path = ICONS_DIR / "favicon.ico"
+        images[16].save(
+            ico_path,
+            format="ICO",
+            sizes=[(16, 16), (32, 32), (48, 48)],
+        )
+        print(f"Wrote {ico_path} (multi-size)")
 
 
 if __name__ == "__main__":

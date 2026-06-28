@@ -1,0 +1,52 @@
+# Coverage and adoption of "Archon: An Architecture Search Framework
+# for Inference-Time Techniques" (Saad-Falcon et al., ICML 2025).
+# Excludes academic paper citations and author/lab pages.
+
+- publisher: VentureBeat
+  author: Emilia David
+  title: "Inference framework Archon promises to make LLMs quicker, without additional costs"
+  date: "Oct. 2024"
+  url: https://venturebeat.com/ai/inference-framework-archon-promises-to-make-llms-quicker-without-additional-costs/
+  category: press
+
+- publisher: MarkTechPost
+  title: "Archon: A Machine Learning Framework for Large Language Model Enhancement Using Automated Inference-Time Architecture Search"
+  date: "Oct. 2024"
+  url: https://www.marktechpost.com/2024/10/10/archon-a-machine-learning-framework-for-large-language-model-enhancement-using-automated-inference-time-architecture-search-for-improved-task-performance/
+  category: press
+
+- publisher: CO/AI
+  title: "Stanford Researchers Introduce Framework to Speed Up LLMs Without Increasing Costs"
+  date: "Oct. 2024"
+  url: https://getcoai.com/news/stanford-researchers-introduce-framework-to-speed-up-llms-without-increasing-costs/
+  category: press
+
+- publisher: AI Research Roundup (Patrick McGuinness)
+  title: "Converting AI Systems Design into an AI Optimization Task"
+  date: "Oct. 2024"
+  url: https://patmcguinness.substack.com/p/ai-research-roundup-241011
+  category: press
+
+- publisher: AI Paper Explained (Rohan Paul)
+  title: "Archon: An Architecture Search Framework for Inference-Time Techniques"
+  date: "Oct. 2024"
+  url: https://www.rohan-paul.com/p/archon-an-architecture-search-framework
+  category: press
+
+- publisher: Simons Institute, UC Berkeley
+  title: "Azalia Mirhoseini — Talk featuring Archon"
+  date: "Apr. 2025"
+  url: https://simons.berkeley.edu/talks/azalia-mirhoseini-stanford-deepmind-2025-04-02
+  category: talk
+
+- publisher: YouTube (Rohan-Paul-AI)
+  title: "Archon: An Architecture Search Framework for Inference-Time Techniques (Google Illuminate Podcast)"
+  date: "Oct. 2024"
+  url: https://www.youtube.com/watch?v=g5JhVUIn6KU
+  category: talk
+
+- publisher: YouTube (Fahd Mirza)
+  title: "Archon — Modular Toolkit for Inference-Time Techniques (Hands-on Demo)"
+  date: "Oct. 2024"
+  url: https://www.youtube.com/watch?v=1aXr2RG9cTM
+  category: talk

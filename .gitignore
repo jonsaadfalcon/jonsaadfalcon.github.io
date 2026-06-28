@@ -1,3 +1,14 @@
 .superpowers/
 _site/
 .jekyll-cache/
+
+# Favicon experimentation alternates (not referenced by _includes/head.html)
+icons/*-bull-icon.png
+icons/*-bull-sil.png
+icons/*-eta.png
+icons/*-horus.png
+icons/*-jsf.png
+scripts/generate-favicon-eta.py
+scripts/generate-favicon-horus.py
+scripts/generate-favicon-svg.py
+scripts/icon-sources/

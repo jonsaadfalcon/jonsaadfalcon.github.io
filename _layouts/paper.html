@@ -8,6 +8,7 @@ layout: default
     {% for author in page.authors %}{% if author == "Jon Saad-Falcon" %}<span class="me">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
   </div>
   <div class="pub-venue" style="margin-top: 4px;">{{ page.venue }} {{ page.year }}{% if page.highlight %} <span class="highlight">{{ page.highlight }}</span>{% endif %}</div>
+  {% if page.extra_venue %}<div class="pub-venue">{{ page.extra_venue }}{% if page.extra_highlight %} <span class="highlight">{{ page.extra_highlight }}</span>{% endif %}</div>{% endif %}
 </div>
 
 {% if page.figure %}

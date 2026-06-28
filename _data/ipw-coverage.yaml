@@ -3,6 +3,20 @@
 # Excludes the Stanford paper itself, the Hazy Research blog post,
 # intelligence-per-watt.ai, and intelligenceperwatt.com.
 
+- publisher: Laude Institute
+  title: "Slingshots // Two: Our Second Grant Cohort"
+  date: "Feb. 2026"
+  url: https://www.laude.org/updates/slingshots-two
+  category: industry
+  featured: true
+
+- publisher: Computing Research Association (CRA)
+  title: "How AI Will Reshape Computer Systems by 2035: A Jeffersonian Dinner in San Francisco about Our 10,000x Future"
+  date: "Apr. 2026"
+  url: https://cra.org/industry/2026/04/27/how-ai-will-reshape-computer-systems-by-2035-a-jeffersonian-dinner-in-san-francisco-about-our-10000x-future/
+  category: industry
+  featured: true
+
 - publisher: NVIDIA Developer Blog
   title: "Scaling Token Factory Revenue and AI Efficiency by Maximizing Performance per Watt"
   date: "Mar. 2026"
@@ -73,9 +87,3 @@
   category: social
   featured: false
 
-- publisher: Christopher Suffi (Medium)
-  title: "Measure What Matters: Intelligence per Watt & Joule"
-  date: "2025"
-  url: https://medium.com/@christopher.suffi/measure-what-matters-intelligence-per-watt-joule
-  category: social
-  featured: false

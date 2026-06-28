@@ -31,23 +31,25 @@ title: Home
     <!-- <h1>Jon Saad-Falcon</h1> -->
 
     <div class="hero-bio">
-      <strong>About Me:</strong> I am a joint Computer Science Ph.D. and MBA student at Stanford University, advised by <a href="https://www.azaliamirhoseini.com/">Azalia Mirhoseini</a> (<a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a>) and <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a> (<a href="https://hazyresearch.stanford.edu/">Hazy Research</a>). I am also a Google Student Researcher on the TPU and Gemini teams.
+      <strong>About Me:</strong> I am a joint Computer Science Ph.D. and MBA student at Stanford University, advised by <a href="https://www.azaliamirhoseini.com/">Azalia Mirhoseini</a> (<a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a>) and <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a> (<a href="https://hazyresearch.stanford.edu/">Hazy Research</a>). I am affiliated with the <a href="https://nlp.stanford.edu/">Stanford NLP Group</a> and the <a href="https://ai.stanford.edu/">Stanford AI Lab (SAIL)</a>. I am also a Google Student Researcher with <a href="https://www.linkedin.com/in/sheng-li-402b1b22">Sheng Li</a> on the TPU and Gemini teams.
     </div>
 
     <div class="hero-bio">
       My research lies at the intersection of language models and ML systems. Most recently, I've studied the <strong>intelligence efficiency</strong> of LM systems, with the goal of <strong>commoditizing intelligence</strong> through increasingly efficient open-source LMs and hardware accelerators. By reducing the energy, compute, and capital required for deploying LMs at scale, we hope to make LM systems more broadly utilized around the world. Our agenda spans foundation models, ML systems, electrical engineering, and economics, and is anchored by the <a href="https://www.intelligence-per-watt.ai/">Intelligence per Watt</a> project.
     </div>
 
+    <!--
     <div class="hero-bio">
-      I've been fortunate to collaborate with <a href="https://profiles.stanford.edu/john-hennessy">John Hennessy</a> (Stanford), <a href="https://www.achowdhery.com/">Aakanksha Chowdhery</a> (Stanford / Reflection AI), and <a href="https://www.linkedin.com/in/jspisak/">Joe Spisak</a> (Meta), among others.
+      I've been fortunate to collaborate with <a href="https://profiles.stanford.edu/john-hennessy">John Hennessy</a> (Stanford), <a href="https://www.achowdhery.com/">Aakanksha Chowdhery</a> (Stanford / Reflection AI), <a href="https://www.linkedin.com/in/jspisak/">Joe Spisak</a> (Meta), <a href="https://people.eecs.berkeley.edu/~matei/">Matei Zaharia</a> (Berkeley / Databricks), <a href="https://web.stanford.edu/~cgpotts/">Chris Potts</a> (Stanford), and <a href="https://omarkhattab.com/">Omar Khattab</a> (MIT), among others.
     </div>
+    -->
 
     <div class="hero-bio">
-      My doctoral studies are supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sgf">Stanford Graduate Fellowship</a>, <a href="https://www.jpmorganchase.com/about/technology/research/ai">JP Morgan AI/ML Fellowship</a>, <a href="https://vpge.stanford.edu/fellowships-funding/EDGE">Stanford EDGE Fellowship</a>, and <a href="https://www.gemfellowship.org/gem-fellowship-program/">GEM Fellowship</a>. I am a recipient of the <a href="https://us.fulbrightonline.org/">Fulbright Scholarship</a> (Research Award, Germany) and <a href="https://www.gatescambridge.org/">Gates-Cambridge Scholarship</a> for post-graduate studies. Previously, I was a Predoctoral Young Investigator at the <a href="https://allenai.org/">Allen Institute for AI</a> and completed the joint B.S./M.S. in Computer Science at <a href="https://www.scs.gatech.edu/">Georgia Tech</a> as a <a href="https://stampsps.gatech.edu/">Stamps President's Scholar</a>.
+      My doctoral studies are supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sgf">Stanford Graduate Fellowship</a>, <a href="https://www.jpmorganchase.com/about/technology/research/ai">JP Morgan AI/ML Fellowship</a>, <a href="https://vpge.stanford.edu/fellowships-funding/EDGE">Stanford EDGE Fellowship</a>, and <a href="https://www.gemfellowship.org/gem-fellowship-program/">GEM Fellowship</a>. I am a recipient of the <a href="https://us.fulbrightonline.org/">Fulbright Scholarship</a> (Research Award, Germany) and <a href="https://www.gatescambridge.org/">Gates-Cambridge Scholarship</a> at the <a href="https://www.cam.ac.uk/">University of Cambridge</a> (<a href="https://www.trin.cam.ac.uk/">Trinity College</a>) for post-graduate studies. Previously, I was a <a href="https://allenai.org/predoctoral-young-investigators">Predoctoral Young Investigator (PYI)</a> at the <a href="https://allenai.org/">Allen Institute for AI (AI2)</a> and completed the joint B.S./M.S. in Computer Science at <a href="https://www.scs.gatech.edu/">Georgia Tech</a> as a <a href="https://stampsps.gatech.edu/">Stamps President's Scholar</a>.
     </div>
 
     <div class="hero-supporters">
-      My research is generously supported by Stanford HAI, Laude Institute, Lambda Labs, Ollama, and IBM Research.
+      My research is generously supported by Stanford HAI, Laude Institute, Lambda Labs, and IBM Research.
     </div>
   </div>
 </div>
@@ -75,6 +77,7 @@ title: Home
           {% for author in pub.authors %}{% if author == "Jon Saad-Falcon" %}<span class="me">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
         </div>
         <div class="pub-venue">{{ pub.venue }} {{ pub.year }}{% if pub.highlight %} <span class="highlight">{{ pub.highlight }}</span>{% endif %}</div>
+        {% if pub.extra_venue %}<div class="pub-venue">{{ pub.extra_venue }}{% if pub.extra_highlight %} <span class="highlight">{{ pub.extra_highlight }}</span>{% endif %}</div>{% endif %}
         <div class="pub-links">
           {% if pub.pdf %}<a class="pub-link" href="{{ pub.pdf }}">paper</a>{% endif %}
           {% if pub.code %}<a class="pub-link" href="{{ pub.code }}">code</a>{% endif %}
@@ -91,11 +94,22 @@ title: Home
 <div class="section">
   <h2 class="section-title">In the News</h2>
   <ul class="pub-list">
+    {% for item in site.data.openjarvis-coverage %}
+      {% if item.featured %}
+      <li class="pub-item">
+        <div class="pub-title">{{ item.title }}</div>
+        <div class="pub-venue" style="font-style: normal;">{{ item.publisher }} &middot; {{ item.date }} &middot; <em>OpenJarvis</em></div>
+        <div class="pub-links">
+          <a class="pub-link" href="{{ item.url }}" target="_blank">read</a>
+        </div>
+      </li>
+      {% endif %}
+    {% endfor %}
     {% for item in site.data.ipw-coverage %}
       {% if item.featured %}
       <li class="pub-item">
         <div class="pub-title">{{ item.title }}</div>
-        <div class="pub-venue" style="font-style: normal;">{{ item.publisher }} &middot; {{ item.date }}</div>
+        <div class="pub-venue" style="font-style: normal;">{{ item.publisher }} &middot; {{ item.date }} &middot; <em>Intelligence per Watt</em></div>
         <div class="pub-links">
           <a class="pub-link" href="{{ item.url }}" target="_blank">read</a>
         </div>
@@ -114,7 +128,7 @@ title: Home
       <div class="talk-title">&ldquo;{{ talk.title }}&rdquo;</div>
       <ul class="talk-venues">
         {% for venue in talk.venues %}
-        <li class="talk-venue">{{ venue.name }}: <span class="talk-date">{{ venue.date }}.</span></li>
+        <li class="talk-venue">{% if venue.url %}<a href="{{ venue.url }}">{{ venue.name }}</a>{% else %}{{ venue.name }}{% endif %}: <span class="talk-date">{{ venue.date }}.</span></li>
         {% endfor %}
       </ul>
     </li>

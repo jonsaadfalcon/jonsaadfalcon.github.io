@@ -17,8 +17,9 @@ subtitle: Full list of research publications, ordered by year.
       {% for author in pub.authors %}{% if author == "Jon Saad-Falcon" %}<span class="me">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
     </div>
     <div class="pub-venue">{{ pub.venue }} {{ pub.year }}{% if pub.highlight %} <span class="highlight">{{ pub.highlight }}</span>{% endif %}</div>
+    {% if pub.extra_venue %}<div class="pub-venue">{{ pub.extra_venue }}{% if pub.extra_highlight %} <span class="highlight">{{ pub.extra_highlight }}</span>{% endif %}</div>{% endif %}
     <div class="pub-links">
-      {% if pub.pdf %}<a class="pub-link" href="{{ pub.pdf }}">paper</a>{% endif %}
+      {% if pub.pdf %}<a class="pub-link" href="{{ pub.pdf }}">{% if pub.type == "article" %}article{% else %}paper{% endif %}</a>{% endif %}
       {% if pub.code %}<a class="pub-link" href="{{ pub.code }}">code</a>{% endif %}
       {% if pub.demo %}<a class="pub-link" href="{{ pub.demo }}">demo</a>{% endif %}
       {% if pub.video %}<a class="pub-link" href="{{ pub.video }}">video</a>{% endif %}
