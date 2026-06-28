@@ -112,7 +112,7 @@
 
 .hero-text {
   h1 {
-    font-size: clamp(1.5rem, 2.5vw + 0.8rem, 1.9rem);
+    font-size: unquote("clamp(1.5rem, 2.5vw + 0.8rem, 1.9rem)");
     font-weight: 700;
     line-height: 1.15;
     margin-bottom: 12px;
