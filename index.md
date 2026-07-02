@@ -31,7 +31,7 @@ title: Home
     <!-- <h1>Jon Saad-Falcon</h1> -->
 
     <div class="hero-bio">
-      <strong>About Me:</strong> I am a joint Computer Science Ph.D. and MBA student at Stanford University, advised by <a href="https://www.azaliamirhoseini.com/">Azalia Mirhoseini</a> (<a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a>) and <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a> (<a href="https://hazyresearch.stanford.edu/">Hazy Research</a>). I am affiliated with the <a href="https://nlp.stanford.edu/">Stanford NLP Group</a> and the <a href="https://ai.stanford.edu/">Stanford AI Lab (SAIL)</a>. I am also a Google Student Researcher with <a href="https://www.linkedin.com/in/sheng-li-402b1b22">Sheng Li</a> on the TPU and Gemini teams.
+      <strong>About Me:</strong> I am a joint Computer Science Ph.D. and MBA student at Stanford University, advised by <a href="https://www.azaliamirhoseini.com/">Azalia Mirhoseini</a> (<a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a>) and <a href="https://cs.stanford.edu/~chrismre/">Christopher R&eacute;</a> (<a href="https://hazyresearch.stanford.edu/">Hazy Research</a>). I am affiliated with the <a href="https://nlp.stanford.edu/">Stanford NLP Group</a> and the <a href="https://ai.stanford.edu/">Stanford AI Lab (SAIL)</a>. I am also a Google Student Researcher on the TPU and Gemini teams.
     </div>
 
     <div class="hero-bio">

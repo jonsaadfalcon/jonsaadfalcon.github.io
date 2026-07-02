@@ -5,9 +5,13 @@
   authors:
     - Jon Saad-Falcon
     - Avanika Narayan
+    - Hakki Orhun Akengin
+    - Herumb Shandilya
+    - Robby Manihani
+    - Gabriel Bo
     - John Hennessy
-    - Christopher Ré
     - Azalia Mirhoseini
+    - Christopher Ré
 
 - title: "Supercharging LLMs: Scalable RL with TorchForge and Weaver"
   url: https://pytorch.org/blog/supercharging-llms-scalable-rl-with-torchforge-and-weaver/
