@@ -7,13 +7,17 @@ title: "OpenJarvis: Personal AI, On Personal Devices"
 authors:
   - Jon Saad-Falcon
   - Avanika Narayan
-  - Hakki Orhun Akengin
-  - Herumb Shandilya
   - Robby Manihani
+  - Tanvir Bhathal
+  - Herumb Shandilya
+  - Hakki Orhun Akengin
   - Gabriel Bo
-  - John Hennessy
-  - Azalia Mirhoseini
+  - Andrew Park
+  - Matthew Hart
+  - Caia Costello
+  - Chuan Li
   - Christopher Ré
+  - Azalia Mirhoseini
 venue: Preprint
 year: 2026
 url: /papers/openjarvis
