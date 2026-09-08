@@ -3,6 +3,41 @@
 # Excludes the Stanford paper itself, the Hazy Research blog post,
 # intelligence-per-watt.ai, and intelligenceperwatt.com.
 
+- publisher: Jaya Gupta, Avanika Narayan & Jon Saad-Falcon (Foundation Capital)
+  title: "Right-Sizing Your Intelligence Spend"
+  date: "Aug. 2026"
+  url: https://x.com/JayaGup10/article/2089924561441841152
+  category: social
+  featured: true
+
+- publisher: Foundation Capital
+  title: "Maximizing Intelligence per Watt (Podcast with Avanika Narayan & Jon Saad-Falcon)"
+  date: "Jul. 2026"
+  url: https://foundationcapital.com/ideas/maximizing-intelligence-per-watt-avanika-narayan-jon-saad-falcon-stanford-ai-cs-ph.d.s
+  category: social
+  featured: true
+
+- publisher: Tom Tunguz
+  title: "Mainframes became personal. So will your data center."
+  date: "Aug. 2026"
+  url: https://tomtunguz.com/intelligence-per-watt
+  category: social
+  featured: false
+
+- publisher: The National Interest
+  title: "The Grid Doesn't Care How Smart Your Model Is"
+  date: "Aug. 2026"
+  url: https://nationalinterest.org/blog/energy-world/the-grid-doesnt-care-how-smart-your-model-is
+  category: industry
+  featured: true
+
+- publisher: Semiconductor Engineering
+  title: "Intelligence Per Watt: Measuring Local Inference Viability, Studying 20+ Models, 8 HW Accelerators (Stanford Univ.)"
+  date: "Nov. 2025"
+  url: https://semiengineering.com/intelligence-per-watt-measuring-local-inference-viability-studying-20-models-8-hw-accelerators-stanford-univ/
+  category: industry
+  featured: true
+
 - publisher: Laude Institute
   title: "Slingshots // Two: Our Second Grant Cohort"
   date: "Feb. 2026"

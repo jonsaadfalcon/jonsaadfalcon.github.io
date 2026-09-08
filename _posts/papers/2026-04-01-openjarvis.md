@@ -24,6 +24,7 @@ url: /papers/openjarvis
 pdf: https://arxiv.org/abs/2605.17172
 blog: https://scalingintelligence.stanford.edu/blogs/openjarvis/
 code: https://github.com/open-jarvis/OpenJarvis
+demo: https://openjarvis.stanford.edu/
 image: /images/papers/openjarvis_image.png
 type: preprint
 featured: true
@@ -46,6 +47,19 @@ OpenJarvis is an open-source framework for personal AI agents that runs entirely
     <div class="pub-title">{{ item.title }}</div>
     <div class="pub-venue" style="font-style: normal;">{{ item.publisher }} &middot; {{ item.date }}</div>
     <div class="pub-links"><a class="pub-link" href="{{ item.url }}" target="_blank">read</a></div>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h3 style="font-family: Georgia, serif; font-size: 1rem; font-weight: 700; color: #2E7D6F; margin-top: 24px; margin-bottom: 8px;">Talks &amp; Videos</h3>
+<ul class="pub-list">
+{% for item in site.data.openjarvis-coverage %}
+  {% if item.category == "talk" %}
+  <li class="pub-item">
+    <div class="pub-title">{{ item.title }}</div>
+    <div class="pub-venue" style="font-style: normal;">{{ item.publisher }} &middot; {{ item.date }}</div>
+    <div class="pub-links"><a class="pub-link" href="{{ item.url }}" target="_blank">watch</a></div>
   </li>
   {% endif %}
 {% endfor %}
