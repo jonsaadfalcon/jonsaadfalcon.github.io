@@ -71,6 +71,8 @@ P1. **Saad-Falcon, Jon** et al. *OpenJarvis: Personal AI, On Personal Devices.* 
 
 P2. **Saad-Falcon, Jon**, Narayan, A., Akengin, O., Griffin, W., Shandilya, H., Lafuente, A., Goel, M., Joseph, R., Natarajan, S., Guha, E., Zhu, S., Athiwaratkun, B., Hennessy, J., Mirhoseini, A. & Re, C. *Intelligence per Watt: Measuring Intelligence Efficiency of Local AI.* 2025. https://arxiv.org/abs/2511.07885
 
+P3. Kang, H., Suresh, T., **Saad-Falcon, Jon** & Mirhoseini, A. *TRACE: Capability-Targeted Agentic Training.* 2026. https://arxiv.org/abs/2604.05336
+
 ### Peer-reviewed Conference Proceedings
 
 C1. **Saad-Falcon, Jon**, Buchanan, E. K., Chen, M. F., Huang, T.-H., McLaughlin, B., Bhathal, T., Zhu, S., Athiwaratkun, B., Sala, F., Linderman, S., Mirhoseini, A. & Re, C. *Weaver: Shrinking the Generation-Verification Gap with Weak Verifiers.* NeurIPS 2025. https://arxiv.org/abs/2506.18203
@@ -104,10 +106,16 @@ C14. Shaikh, O., Chen, J., **Saad-Falcon, Jon**, Chau, D. H. & Yang, D. *Examini
 
 C15. **Saad-Falcon, Jon**, Shaikh, O., Wang, Z. J., Wright, A. P., Richardson, S. & Chau, D. H. *Mapping Researchers with PeopleMap.* IEEE VIS 2020, **Best Poster, Honorable Mention**. https://arxiv.org/abs/2009.00091
 
+### Op-Eds & Essays
+
+E1. Dunnmon, J., Narayan, A. & **Saad-Falcon, Jon**. *China's AI Heist.* Foreign Affairs, 2026. https://www.foreignaffairs.com/china/chinas-ai-heist
+
 ---
 
 ## Invited Talks
 
+T0. **Saad-Falcon, Jon**. *OpenJarvis: Personal AI, On Personal Devices.* AMD Advancing AI Day. Jul. 2026.
+T0. **Saad-Falcon, Jon**. *OpenJarvis: Personal AI, On Personal Devices.* Y Combinator (YC) Paper Club. Jul. 2026.
 T1. **Saad-Falcon, Jon**. *Intelligence per Watt: Measuring Intelligence Efficiency of Local AI.* EE292P: Atoms, Bits, and National Interest (ABNI), Stanford University. Feb. 2026.
 T2. **Saad-Falcon, Jon**. *Intelligence per Watt: Measuring Intelligence Efficiency of Local AI.* Two Sigma. Jan. 2026.
 T3. **Saad-Falcon, Jon**. *Intelligence per Watt: Measuring Intelligence Efficiency of Local AI.* MBZUAI Speech and NLP Symposium. Jan. 2026.
@@ -123,11 +131,11 @@ T8. **Saad-Falcon, Jon**. *Archon: An Architecture Search Framework for Inferenc
 
 ### Current Mentees
 
-2024 -- present | Hangoo Kang, Hannah Gao, Harsh Singh, Matthew Hart, Orhun Akengin, Tanvir Bhathal, Tarun Suresh
+2024 -- present | Hangoo Kang, Harsh Singh, Matthew Hart, Orhun Akengin, Tanvir Bhathal, Tarun Suresh
 
 ### Past Mentees
 
-Adrian Lafuente Gamarra (now Salesforce), Brendan McLaughlin (now Reflection AI), Herumb Shandilya (now Mixed Bread), Robby Manihani (now Pace), Wes Griffin (Stanford)
+Adrian Lafuente Gamarra (now Salesforce), Brendan McLaughlin (now Reflection AI), Herumb Shandilya (now Mixed Bread), Lichu Acuña (now Stealth Startup), Robby Manihani (now Pace), Wes Griffin (Stanford)
 
 ---
 
@@ -170,4 +178,4 @@ Used quantitative techniques and NLP tools for company valuation. Collaborated w
 
 ---
 
-*Last updated: April 2026*
+*Last updated: July 2026*
