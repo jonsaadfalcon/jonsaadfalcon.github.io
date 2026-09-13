@@ -32,3 +32,19 @@ excerpt_separator: <!--more-->
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+
+# Exclude private/internal files from the built site so they never render
+# publicly. Anything not listed here that isn't underscore-prefixed will be
+# published by default. Add new private dirs/files above the "# ---" line.
+exclude:
+  - docs/
+  - CLAUDE.md
+  - README.md
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - .superpowers/
+  # ---

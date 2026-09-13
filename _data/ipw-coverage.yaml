@@ -3,6 +3,13 @@
 # Excludes the Stanford paper itself, the Hazy Research blog post,
 # intelligence-per-watt.ai, and intelligenceperwatt.com.
 
+- publisher: Financial Times (Richard Waters)
+  title: "How big is the open-model threat to AI hyperscalers?"
+  date: "Sep. 2026"
+  url: https://www.ft.com/content/48588acb-8026-4c8e-aac7-8b5588294dbf
+  category: industry
+  featured: true
+
 - publisher: Jaya Gupta, Avanika Narayan & Jon Saad-Falcon (Foundation Capital)
   title: "Right-Sizing Your Intelligence Spend"
   date: "Aug. 2026"
@@ -117,7 +124,7 @@
 
 - publisher: Alex Cheema (EXO Labs)
   title: "Intelligence per Joule increased 18x in 16 months"
-  date: "2026"
+  date: "Apr. 2026"
   url: https://x.com/alexocheema/status/2041924875816751197
   category: social
   featured: false

@@ -6,7 +6,7 @@
   date: "Jul. 2026"
   url: https://foundationcapital.com/ideas/maximizing-intelligence-per-watt-avanika-narayan-jon-saad-falcon-stanford-ai-cs-ph.d.s
   category: talk
-  featured: true
+  featured: false  # kept in OJ paper page's Talks & Videos, but not on homepage (dup with IPW listing)
 
 - publisher: Laude Institute
   title: "Slingshots // Three: Our Third Grant Cohort"
@@ -20,13 +20,6 @@
   date: "Jul. 2026"
   url: https://www.youtube.com/watch?v=DdNPESul5yc&list=PLfRzaFQVINlY&index=4
   category: talk
-  featured: false
-
-- publisher: Agent Wars
-  title: "OpenJarvis: Stanford's Open-Source Framework for Local-First Personal AI Agents"
-  date: "Mar. 2026"
-  url: https://agent-wars.com/news/2026-03-16-openjarvis-stanford-local-first-personal-ai-agents
-  category: industry
   featured: false
 
 - publisher: ComputerTech
