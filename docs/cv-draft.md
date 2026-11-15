@@ -131,7 +131,7 @@ T8. **Saad-Falcon, Jon**. *Archon: An Architecture Search Framework for Inferenc
 
 ### Current Mentees
 
-2024 -- present | Hangoo Kang, Harsh Singh, Matthew Hart, Orhun Akengin, Tanvir Bhathal, Tarun Suresh
+2024 -- present | Amir Zeinali, Hangoo Kang, Matthew Hart, Orhun Akengin, Tanvir Bhathal, Tarun Suresh
 
 ### Past Mentees
 
